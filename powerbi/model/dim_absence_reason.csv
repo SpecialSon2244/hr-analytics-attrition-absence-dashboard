@@ -1,0 +1,30 @@
+reason_code,reason_name,reason_group
+0,No reason recorded,No reason recorded
+1,Infectious and parasitic diseases,ICD disease
+2,Neoplasms,ICD disease
+3,Blood and immune disorders,ICD disease
+4,"Endocrine, nutritional, metabolic",ICD disease
+5,Mental and behavioural disorders,ICD disease
+6,Nervous system,ICD disease
+7,Eye and adnexa,ICD disease
+8,Ear and mastoid,ICD disease
+9,Circulatory system,ICD disease
+10,Respiratory system,ICD disease
+11,Digestive system,ICD disease
+12,Skin and subcutaneous tissue,ICD disease
+13,Musculoskeletal and connective tissue,ICD disease
+14,Genitourinary system,ICD disease
+15,Pregnancy and childbirth,ICD disease
+16,Perinatal conditions,ICD disease
+17,Congenital malformations,ICD disease
+18,Symptoms and abnormal findings,ICD disease
+19,"Injury, poisoning",ICD disease
+20,External causes,ICD disease
+21,Factors influencing health status,ICD disease
+22,Patient follow-up,Non-ICD
+23,Medical consultation,Non-ICD
+24,Blood donation,Non-ICD
+25,Laboratory examination,Non-ICD
+26,Unjustified absence,Non-ICD
+27,Physiotherapy,Non-ICD
+28,Dental consultation,Non-ICD

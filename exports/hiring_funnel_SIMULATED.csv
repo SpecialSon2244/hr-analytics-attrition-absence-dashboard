@@ -1,0 +1,25 @@
+Department,Stage,Stage order,Candidates,% of applicants,Conversion from previous stage %,Data
+All departments,Applied,1,12109,100.0,,SIMULATED
+All departments,Screened,2,4013,33.1,33.1,SIMULATED
+All departments,Interview,3,2409,19.9,60.0,SIMULATED
+All departments,Final interview,4,943,7.8,39.1,SIMULATED
+All departments,Offer,5,331,2.7,35.1,SIMULATED
+All departments,Hired,6,257,2.1,77.6,SIMULATED
+Human Resources,Applied,1,444,100.0,,SIMULATED
+Human Resources,Screened,2,153,34.5,34.5,SIMULATED
+Human Resources,Interview,3,94,21.2,61.4,SIMULATED
+Human Resources,Final interview,4,32,7.2,34.0,SIMULATED
+Human Resources,Offer,5,13,2.9,40.6,SIMULATED
+Human Resources,Hired,6,10,2.3,76.9,SIMULATED
+Research & Development,Applied,1,7953,100.0,,SIMULATED
+Research & Development,Screened,2,2637,33.2,33.2,SIMULATED
+Research & Development,Interview,3,1588,20.0,60.2,SIMULATED
+Research & Development,Final interview,4,622,7.8,39.2,SIMULATED
+Research & Development,Offer,5,206,2.6,33.1,SIMULATED
+Research & Development,Hired,6,158,2.0,76.7,SIMULATED
+Sales,Applied,1,3712,100.0,,SIMULATED
+Sales,Screened,2,1223,32.9,32.9,SIMULATED
+Sales,Interview,3,727,19.6,59.4,SIMULATED
+Sales,Final interview,4,289,7.8,39.8,SIMULATED
+Sales,Offer,5,112,3.0,38.8,SIMULATED
+Sales,Hired,6,89,2.4,79.5,SIMULATED

@@ -1,0 +1,9 @@
+Overtime,Monthly income band,Band order,Headcount,Leavers,Attrition rate %
+Overtime: No,Under 3k,1,281,49,17.4
+Overtime: No,3k-5k,2,263,26,9.9
+Overtime: No,5k-10k,3,314,22,7.0
+Overtime: No,10k+,4,196,13,6.6
+Overtime: Yes,Under 3k,1,114,64,56.1
+Overtime: Yes,3k-5k,2,91,24,26.4
+Overtime: Yes,5k-10k,3,126,27,21.4
+Overtime: Yes,10k+,4,85,12,14.1

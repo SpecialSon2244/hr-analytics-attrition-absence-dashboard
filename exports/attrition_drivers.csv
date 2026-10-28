@@ -1,0 +1,28 @@
+Factor,Factor order,Group,Group order,Headcount,Leavers,Attrition rate %
+Overtime,1,No,1,1054,110,10.4
+Overtime,1,Yes,2,416,127,30.5
+Years at company,2,0-2 yrs,1,342,102,29.8
+Years at company,2,3-5 yrs,2,434,60,13.8
+Years at company,2,6-10 yrs,3,448,55,12.3
+Years at company,2,11+ yrs,4,246,20,8.1
+Monthly income,3,Under 3k,1,395,113,28.6
+Monthly income,3,3k-5k,2,354,50,14.1
+Monthly income,3,5k-10k,3,440,49,11.1
+Monthly income,3,10k+,4,281,25,8.9
+Business travel,4,No travel,1,150,12,8.0
+Business travel,4,Travels rarely,2,1043,156,15.0
+Business travel,4,Travels frequently,3,277,69,24.9
+Age band,5,18-24,1,97,38,39.2
+Age band,5,25-34,2,554,112,20.2
+Age band,5,35-44,3,505,51,10.1
+Age band,5,45-54,4,245,25,10.2
+Age band,5,55+,5,69,11,15.9
+Job level,6,Level 1,1,543,143,26.3
+Job level,6,Level 2,2,534,52,9.7
+Job level,6,Level 3,3,218,32,14.7
+Job level,6,Level 4,4,106,5,4.7
+Job level,6,Level 5,5,69,5,7.2
+Job satisfaction,7,Low,1,289,66,22.8
+Job satisfaction,7,Medium,2,280,46,16.4
+Job satisfaction,7,High,3,442,73,16.5
+Job satisfaction,7,Very high,4,459,52,11.3

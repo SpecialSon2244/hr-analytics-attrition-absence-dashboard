@@ -1,0 +1,37 @@
+absence_employee_key,min_age_in_records,service_time_years,distance_to_work_km,transportation_expense,education_level,children,social_drinker,social_smoker,pets,body_mass_index
+UCI-01,37,14,11,235,Postgraduate,1,false,false,1,29
+UCI-02,48,12,29,235,High school,1,false,true,5,33
+UCI-03,38,18,51,179,High school,0,true,false,0,31
+UCI-04,40,13,14,118,High school,1,true,false,8,34
+UCI-05,43,13,20,235,High school,1,true,false,0,38
+UCI-06,33,13,29,189,High school,2,false,false,2,25
+UCI-07,39,14,5,279,High school,2,true,true,0,24
+UCI-08,39,14,35,231,High school,2,true,false,2,35
+UCI-09,58,16,14,228,High school,2,false,false,1,22
+UCI-10,28,3,52,361,High school,1,true,false,4,27
+UCI-11,33,13,36,289,High school,2,true,false,1,30
+UCI-12,31,1,51,233,Graduate,1,true,false,8,21
+UCI-13,31,12,17,369,High school,3,true,false,0,25
+UCI-14,34,14,12,155,High school,2,true,false,0,25
+UCI-15,40,12,31,291,High school,1,true,false,1,25
+UCI-16,46,24,15,118,High school,2,true,true,0,25
+UCI-17,40,17,22,179,Graduate,2,false,true,0,22
+UCI-18,28,4,16,330,Graduate,0,false,false,0,25
+UCI-19,32,12,50,291,High school,0,true,false,0,23
+UCI-20,36,11,50,260,High school,4,true,false,0,23
+UCI-21,33,8,11,268,Graduate,0,false,false,0,25
+UCI-22,30,9,26,179,Postgraduate,0,false,false,0,19
+UCI-23,36,11,49,378,High school,2,false,true,4,21
+UCI-24,41,16,25,246,High school,0,true,false,0,23
+UCI-25,32,8,16,235,Postgraduate,0,false,false,0,25
+UCI-26,43,13,26,300,High school,2,true,true,1,25
+UCI-27,27,7,42,184,High school,0,false,false,0,21
+UCI-28,28,9,26,225,High school,1,false,false,2,24
+UCI-29,28,9,26,225,High school,1,false,false,2,24
+UCI-30,29,6,27,157,High school,0,true,true,0,22
+UCI-31,50,9,15,388,High school,0,false,false,0,24
+UCI-32,49,29,48,289,High school,0,false,false,2,36
+UCI-33,47,14,25,248,High school,2,false,false,1,32
+UCI-34,37,10,10,118,High school,0,false,false,0,28
+UCI-35,53,14,45,179,High school,1,false,false,1,25
+UCI-36,50,18,13,118,High school,1,true,false,0,31

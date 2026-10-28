@@ -1,0 +1,4 @@
+Department,Requisitions,Filled,Open,Cancelled,Median time to hire (days),Median time to fill (days),Offer acceptance %,Data
+Research & Development,181,158,20,3,32.0,36.5,76.7,SIMULATED
+Sales,108,89,18,1,33.0,37.0,79.5,SIMULATED
+Human Resources,11,10,1,0,33.5,37.0,76.9,SIMULATED

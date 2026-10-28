@@ -1,0 +1,12 @@
+Department,Job role,Headcount,Active,Leavers,Attrition rate %,Avg tenure (years),Company attrition rate %
+Sales,Sales Representative,83,50,33,39.8,2.9,16.1
+Research & Development,Laboratory Technician,259,197,62,23.9,5.0,16.1
+Human Resources,Human Resources,52,40,12,23.1,5.3,16.1
+Sales,Sales Executive,326,269,57,17.5,7.5,16.1
+Research & Development,Research Scientist,292,245,47,16.1,5.1,16.1
+Research & Development,Healthcare Representative,131,122,9,6.9,8.4,16.1
+Research & Development,Manufacturing Director,145,135,10,6.9,7.6,16.1
+Research & Development,Manager,54,51,3,5.6,13.5,16.1
+Sales,Manager,37,35,2,5.4,15.2,16.1
+Research & Development,Research Director,80,78,2,2.5,10.9,16.1
+Human Resources,Manager,11,11,0,0.0,16.3,16.1

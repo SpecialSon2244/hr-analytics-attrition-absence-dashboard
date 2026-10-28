@@ -1,0 +1,134 @@
+// DAX measures for the HR analytics Power BI model.
+// Create a table "_Measures" (Enter data, one blank column, then hide the column) and add
+// each measure below to it. Display folders are given in the comments.
+// Tables: see powerbi/RELATIONSHIPS.md. IBM = fictional, UCI = real (different company),
+// *_SIMULATED = SIMULATED recruiting data.
+
+// ===== Workforce (IBM, fictional) =====================================  folder: Workforce
+Headcount = SUM ( fact_attrition_snapshot[headcount_at_start] )
+
+Active Employees = SUM ( fact_attrition_snapshot[is_active] )
+
+Leavers = SUM ( fact_attrition_snapshot[is_leaver] )
+
+// Format: Percentage, 1 decimal
+Attrition Rate = DIVIDE ( [Leavers], [Headcount] )
+
+// Format: decimal, 1 decimal
+Avg Tenure (yrs) = AVERAGE ( fact_attrition_snapshot[tenure_years] )
+
+Avg Tenure Leavers (yrs) =
+CALCULATE ( [Avg Tenure (yrs)], fact_attrition_snapshot[is_leaver] = 1 )
+
+Avg Tenure Active (yrs) =
+CALCULATE ( [Avg Tenure (yrs)], fact_attrition_snapshot[is_active] = 1 )
+
+Median Monthly Income = MEDIAN ( fact_attrition_snapshot[monthly_income] )
+
+// Attrition rate of all employees, ignoring slicers on employee attributes and job roles
+Company Attrition Rate =
+CALCULATE ( [Attrition Rate], REMOVEFILTERS ( dim_employee ), REMOVEFILTERS ( dim_job_role ), REMOVEFILTERS ( dim_department ) )
+
+// Percentage points above (+) or below (-) the company rate
+Attrition vs Company (pp) = ( [Attrition Rate] - [Company Attrition Rate] ) * 100
+
+Overtime Attrition Rate =
+CALCULATE ( [Attrition Rate], dim_employee[overtime] = "Yes" )
+
+No Overtime Attrition Rate =
+CALCULATE ( [Attrition Rate], dim_employee[overtime] = "No" )
+
+First 2 Years Attrition Rate =
+CALCULATE ( [Attrition Rate], dim_employee[years_at_company] <= 2 )
+
+// ===== Absence (UCI, real, different company) ==========================  folder: Absence
+Absence Records = COUNTROWS ( fact_absence )
+
+Absence Spells = SUM ( fact_absence[is_absence_spell] )
+
+Absence Hours = SUM ( fact_absence[absence_hours] )
+
+Absence Days (8h) = SUM ( fact_absence[absence_days_8h] )
+
+Absence Employees = DISTINCTCOUNT ( fact_absence[absence_employee_key] )
+
+// The file covers Jul 2007 to Jul 2010 (about 3 years) without a year column
+Absence Years Covered = 3
+
+Absence Hours per Employee per Year =
+DIVIDE ( [Absence Hours], [Absence Employees] * [Absence Years Covered] )
+
+Avg Hours per Spell = DIVIDE ( [Absence Hours], [Absence Spells] )
+
+Share of Absence Hours =
+DIVIDE ( [Absence Hours], CALCULATE ( [Absence Hours], REMOVEFILTERS ( fact_absence ), REMOVEFILTERS ( dim_absence_reason ), REMOVEFILTERS ( dim_absence_month ), REMOVEFILTERS ( dim_weekday ), REMOVEFILTERS ( dim_absence_employee ) ) )
+
+// ASSUMPTION: the source has no scheduled hours. 8 h x 220 working days per employee per
+// year is an editable assumption, not data. Label any visual using it "estimated".
+Assumed Scheduled Hours per Employee per Year = 8 * 220
+
+Absence Rate (estimated) =
+DIVIDE ( [Absence Hours], [Absence Employees] * [Absence Years Covered] * [Assumed Scheduled Hours per Employee per Year] )
+
+// Annualised Bradford factor per employee: (spells/3)^2 x (days/3), summed over employees in context
+Bradford Factor (annual) =
+SUMX (
+    VALUES ( dim_absence_employee[absence_employee_key] ),
+    VAR s = CALCULATE ( [Absence Spells] ) / [Absence Years Covered]
+    VAR d = CALCULATE ( [Absence Days (8h)] ) / [Absence Years Covered]
+    RETURN s * s * d
+)
+
+Monday Share of Absence Hours =
+DIVIDE ( CALCULATE ( [Absence Hours], dim_weekday[iso_weekday] = 1 ), CALCULATE ( [Absence Hours], REMOVEFILTERS ( dim_weekday ) ) )
+
+// ===== Recruiting (SIMULATED) ============================  folder: Recruiting (SIMULATED)
+Requisitions (SIMULATED) = COUNTROWS ( fact_requisition_SIMULATED )
+
+Filled Requisitions (SIMULATED) =
+CALCULATE ( [Requisitions (SIMULATED)], fact_requisition_SIMULATED[status] = "Filled" )
+
+Open Requisitions (SIMULATED) =
+CALCULATE ( [Requisitions (SIMULATED)], fact_requisition_SIMULATED[status] = "Open" )
+
+Fill Rate (SIMULATED) = DIVIDE ( [Filled Requisitions (SIMULATED)], [Requisitions (SIMULATED)] )
+
+Applicants (SIMULATED) = COUNTROWS ( fact_candidate_SIMULATED )
+
+Hires (SIMULATED) =
+CALCULATE ( [Applicants (SIMULATED)], fact_candidate_SIMULATED[offer_outcome] = "Accepted" )
+
+Offers Made (SIMULATED) =
+CALCULATE ( [Applicants (SIMULATED)], NOT ISBLANK ( fact_candidate_SIMULATED[offer_date] ) )
+
+Offers Decided (SIMULATED) =
+CALCULATE ( [Applicants (SIMULATED)], fact_candidate_SIMULATED[offer_outcome] IN { "Accepted", "Declined" } )
+
+// Accepted / (accepted + declined); pending offers are left out. Format: Percentage, 1 decimal
+Offer Acceptance Rate (SIMULATED) = DIVIDE ( [Hires (SIMULATED)], [Offers Decided (SIMULATED)] )
+
+// Time to hire = hired candidate's application to offer acceptance (days)
+Median Time to Hire (days, SIMULATED) = MEDIAN ( fact_requisition_SIMULATED[time_to_hire_days] )
+
+Avg Time to Hire (days, SIMULATED) = AVERAGE ( fact_requisition_SIMULATED[time_to_hire_days] )
+
+// Time to fill = requisition opened to offer acceptance (days)
+Median Time to Fill (days, SIMULATED) = MEDIAN ( fact_requisition_SIMULATED[time_to_fill_days] )
+
+Avg Time to Fill (days, SIMULATED) = AVERAGE ( fact_requisition_SIMULATED[time_to_fill_days] )
+
+Hires per 100 Applicants (SIMULATED) = DIVIDE ( [Hires (SIMULATED)], [Applicants (SIMULATED)] ) * 100
+
+// Funnel: candidates reaching the stage in context (use with dim stage on the axis:
+// fact_candidate_stage_SIMULATED[stage])
+Candidates at Stage (SIMULATED) = DISTINCTCOUNT ( fact_candidate_stage_SIMULATED[candidate_id] )
+
+Stage % of Applicants (SIMULATED) =
+DIVIDE ( [Candidates at Stage (SIMULATED)],
+         CALCULATE ( [Candidates at Stage (SIMULATED)], fact_candidate_stage_SIMULATED[stage_order] = 1,
+                     REMOVEFILTERS ( fact_candidate_stage_SIMULATED[stage] ), REMOVEFILTERS ( fact_candidate_stage_SIMULATED[stage_order] ) ) )
+
+// Requisitions filled in the selected period: uses the inactive closed_date_key relationship
+Hires by Fill Date (SIMULATED) =
+CALCULATE ( [Filled Requisitions (SIMULATED)],
+            USERELATIONSHIP ( fact_requisition_SIMULATED[closed_date_key], dim_date[date_key] ) )

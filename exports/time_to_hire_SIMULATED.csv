@@ -1,0 +1,258 @@
+Requisition,Department,Job role,Opened,Filled,Quarter filled,Time to hire (days),Time to fill (days),Hire source,Applicants,Data
+R0126,Sales,Sales Executive,2025-01-01,2025-02-03,2025-Q1,29,33,LinkedIn,19,SIMULATED
+R0244,Sales,Sales Executive,2025-01-04,2025-02-09,2025-Q1,34,36,Agency,42,SIMULATED
+R0179,Research & Development,Research Scientist,2025-01-05,2025-02-10,2025-Q1,30,36,Job board,56,SIMULATED
+R0080,Research & Development,Research Scientist,2025-01-07,2025-02-16,2025-Q1,27,40,Employee referral,17,SIMULATED
+R0215,Research & Development,Laboratory Technician,2025-01-08,2025-02-16,2025-Q1,35,39,LinkedIn,35,SIMULATED
+R0297,Sales,Sales Representative,2025-01-08,2025-02-19,2025-Q1,32,42,Employee referral,35,SIMULATED
+R0125,Research & Development,Laboratory Technician,2025-01-16,2025-02-23,2025-Q1,34,38,Agency,39,SIMULATED
+R0017,Research & Development,Research Scientist,2025-01-17,2025-02-27,2025-Q1,26,41,Job board,24,SIMULATED
+R0033,Sales,Sales Executive,2025-01-22,2025-02-27,2025-Q1,28,36,Job board,34,SIMULATED
+R0050,Research & Development,Laboratory Technician,2025-01-20,2025-03-01,2025-Q1,40,40,Agency,21,SIMULATED
+R0127,Research & Development,Manufacturing Director,2025-01-22,2025-03-01,2025-Q1,36,38,LinkedIn,25,SIMULATED
+R0020,Sales,Sales Representative,2025-01-26,2025-03-03,2025-Q1,34,36,Agency,50,SIMULATED
+R0073,Research & Development,Manufacturing Director,2025-02-04,2025-03-05,2025-Q1,29,29,LinkedIn,48,SIMULATED
+R0032,Human Resources,Human Resources,2025-02-01,2025-03-07,2025-Q1,31,34,Employee referral,48,SIMULATED
+R0105,Research & Development,Research Scientist,2025-01-24,2025-03-10,2025-Q1,42,45,Employee referral,58,SIMULATED
+R0236,Sales,Sales Representative,2025-02-19,2025-03-16,2025-Q1,25,25,Job board,26,SIMULATED
+R0035,Research & Development,Research Scientist,2025-02-14,2025-03-17,2025-Q1,31,31,LinkedIn,81,SIMULATED
+R0128,Research & Development,Laboratory Technician,2025-02-12,2025-03-19,2025-Q1,32,35,Careers site,41,SIMULATED
+R0001,Sales,Sales Representative,2025-02-16,2025-03-22,2025-Q1,30,34,Careers site,44,SIMULATED
+R0008,Human Resources,Human Resources,2025-02-23,2025-03-22,2025-Q1,24,27,Careers site,48,SIMULATED
+R0022,Sales,Sales Executive,2025-02-15,2025-03-24,2025-Q1,31,37,Job board,28,SIMULATED
+R0101,Research & Development,Research Scientist,2025-02-16,2025-03-26,2025-Q1,29,38,Careers site,49,SIMULATED
+R0193,Research & Development,Laboratory Technician,2025-02-17,2025-03-27,2025-Q1,37,38,LinkedIn,16,SIMULATED
+R0224,Human Resources,Human Resources,2025-02-23,2025-03-30,2025-Q1,33,35,LinkedIn,32,SIMULATED
+R0242,Research & Development,Laboratory Technician,2025-02-23,2025-04-09,2025-Q2,44,45,LinkedIn,36,SIMULATED
+R0123,Research & Development,Laboratory Technician,2025-03-01,2025-04-11,2025-Q2,40,41,LinkedIn,32,SIMULATED
+R0051,Research & Development,Laboratory Technician,2025-03-09,2025-04-12,2025-Q2,31,34,Job board,56,SIMULATED
+R0067,Research & Development,Laboratory Technician,2025-03-02,2025-04-15,2025-Q2,38,44,Careers site,31,SIMULATED
+R0141,Sales,Sales Representative,2025-03-23,2025-04-15,2025-Q2,23,23,Agency,33,SIMULATED
+R0289,Sales,Sales Executive,2025-03-07,2025-04-15,2025-Q2,35,39,LinkedIn,28,SIMULATED
+R0270,Research & Development,Research Scientist,2025-03-29,2025-04-19,2025-Q2,21,21,Employee referral,79,SIMULATED
+R0016,Sales,Sales Representative,2025-03-13,2025-04-21,2025-Q2,36,39,Job board,48,SIMULATED
+R0287,Sales,Sales Representative,2025-04-07,2025-04-24,2025-Q2,17,17,Job board,33,SIMULATED
+R0026,Research & Development,Laboratory Technician,2025-03-21,2025-04-26,2025-Q2,32,36,Job board,28,SIMULATED
+R0273,Research & Development,Research Scientist,2025-04-01,2025-04-29,2025-Q2,27,28,Job board,21,SIMULATED
+R0116,Sales,Sales Executive,2025-02-18,2025-04-30,2025-Q2,38,71,LinkedIn,22,SIMULATED
+R0184,Research & Development,Research Scientist,2025-03-24,2025-04-30,2025-Q2,29,37,LinkedIn,46,SIMULATED
+R0118,Sales,Sales Executive,2025-03-31,2025-05-01,2025-Q2,21,31,Job board,16,SIMULATED
+R0290,Human Resources,Human Resources,2025-03-29,2025-05-01,2025-Q2,31,33,Careers site,34,SIMULATED
+R0135,Sales,Sales Representative,2025-03-24,2025-05-04,2025-Q2,29,41,LinkedIn,55,SIMULATED
+R0047,Research & Development,Research Scientist,2025-03-23,2025-05-05,2025-Q2,30,43,LinkedIn,37,SIMULATED
+R0048,Research & Development,Research Scientist,2025-03-17,2025-05-05,2025-Q2,48,49,LinkedIn,22,SIMULATED
+R0136,Research & Development,Laboratory Technician,2025-03-30,2025-05-06,2025-Q2,34,37,LinkedIn,54,SIMULATED
+R0170,Research & Development,Laboratory Technician,2025-03-26,2025-05-07,2025-Q2,41,42,Job board,56,SIMULATED
+R0250,Research & Development,Laboratory Technician,2025-04-14,2025-05-07,2025-Q2,21,23,Agency,64,SIMULATED
+R0114,Sales,Sales Executive,2025-04-15,2025-05-11,2025-Q2,22,26,Careers site,73,SIMULATED
+R0233,Sales,Sales Executive,2025-04-03,2025-05-13,2025-Q2,38,40,Job board,23,SIMULATED
+R0254,Research & Development,Laboratory Technician,2025-03-23,2025-05-14,2025-Q2,44,52,Careers site,22,SIMULATED
+R0153,Research & Development,Research Scientist,2025-04-02,2025-05-15,2025-Q2,35,43,Employee referral,33,SIMULATED
+R0268,Research & Development,Research Scientist,2025-04-20,2025-05-15,2025-Q2,21,25,LinkedIn,147,SIMULATED
+R0272,Sales,Sales Executive,2025-04-09,2025-05-17,2025-Q2,37,38,Job board,25,SIMULATED
+R0229,Research & Development,Manufacturing Director,2025-04-13,2025-05-19,2025-Q2,35,36,Careers site,48,SIMULATED
+R0225,Research & Development,Manufacturing Director,2025-04-23,2025-05-20,2025-Q2,23,27,Careers site,21,SIMULATED
+R0094,Research & Development,Research Scientist,2025-04-19,2025-05-23,2025-Q2,33,34,Employee referral,108,SIMULATED
+R0195,Sales,Sales Representative,2025-04-22,2025-05-31,2025-Q2,30,39,Employee referral,60,SIMULATED
+R0231,Sales,Sales Executive,2025-04-19,2025-06-05,2025-Q2,37,47,Employee referral,22,SIMULATED
+R0012,Sales,Sales Representative,2025-05-06,2025-06-14,2025-Q2,39,39,LinkedIn,39,SIMULATED
+R0266,Research & Development,Research Scientist,2025-05-03,2025-06-21,2025-Q2,38,49,Careers site,53,SIMULATED
+R0078,Research & Development,Laboratory Technician,2025-05-29,2025-06-25,2025-Q2,26,27,LinkedIn,94,SIMULATED
+R0095,Human Resources,Human Resources,2025-04-30,2025-06-26,2025-Q2,46,57,LinkedIn,36,SIMULATED
+R0081,Sales,Sales Executive,2025-06-01,2025-06-27,2025-Q2,26,26,Job board,50,SIMULATED
+R0140,Research & Development,Research Scientist,2025-05-30,2025-06-27,2025-Q2,28,28,LinkedIn,37,SIMULATED
+R0157,Research & Development,Manufacturing Director,2025-06-04,2025-06-28,2025-Q2,23,24,LinkedIn,37,SIMULATED
+R0106,Research & Development,Manufacturing Director,2025-05-28,2025-07-01,2025-Q3,31,34,Job board,24,SIMULATED
+R0208,Research & Development,Manufacturing Director,2025-05-14,2025-07-02,2025-Q3,41,49,Employee referral,36,SIMULATED
+R0235,Sales,Sales Executive,2025-05-26,2025-07-02,2025-Q3,36,37,Careers site,42,SIMULATED
+R0294,Research & Development,Healthcare Representative,2025-05-15,2025-07-03,2025-Q3,28,49,Careers site,38,SIMULATED
+R0063,Sales,Sales Executive,2025-05-25,2025-07-08,2025-Q3,31,44,LinkedIn,21,SIMULATED
+R0074,Sales,Sales Representative,2025-06-10,2025-07-08,2025-Q3,22,28,Job board,46,SIMULATED
+R0281,Research & Development,Research Scientist,2025-06-06,2025-07-12,2025-Q3,32,36,LinkedIn,71,SIMULATED
+R0045,Human Resources,Human Resources,2025-05-31,2025-07-13,2025-Q3,40,43,Careers site,39,SIMULATED
+R0054,Sales,Sales Executive,2025-05-26,2025-07-16,2025-Q3,46,51,Employee referral,41,SIMULATED
+R0134,Human Resources,Human Resources,2025-06-10,2025-07-19,2025-Q3,24,39,LinkedIn,40,SIMULATED
+R0154,Sales,Sales Executive,2025-06-14,2025-07-20,2025-Q3,35,36,Job board,35,SIMULATED
+R0255,Research & Development,Research Scientist,2025-06-19,2025-07-20,2025-Q3,31,31,LinkedIn,47,SIMULATED
+R0257,Research & Development,Laboratory Technician,2025-06-16,2025-07-20,2025-Q3,29,34,Careers site,42,SIMULATED
+R0065,Research & Development,Research Scientist,2025-06-15,2025-07-21,2025-Q3,32,36,Employee referral,27,SIMULATED
+R0038,Research & Development,Research Scientist,2025-06-23,2025-07-25,2025-Q3,28,32,Employee referral,60,SIMULATED
+R0130,Sales,Sales Executive,2025-06-19,2025-07-25,2025-Q3,36,36,Employee referral,21,SIMULATED
+R0280,Research & Development,Laboratory Technician,2025-06-12,2025-07-25,2025-Q3,40,43,Careers site,50,SIMULATED
+R0173,Research & Development,Laboratory Technician,2025-06-17,2025-07-28,2025-Q3,37,41,Careers site,28,SIMULATED
+R0187,Research & Development,Healthcare Representative,2025-06-21,2025-07-28,2025-Q3,35,37,Agency,23,SIMULATED
+R0155,Sales,Sales Executive,2025-06-14,2025-07-29,2025-Q3,34,45,LinkedIn,31,SIMULATED
+R0182,Research & Development,Laboratory Technician,2025-06-15,2025-07-31,2025-Q3,34,46,Careers site,20,SIMULATED
+R0158,Research & Development,Healthcare Representative,2025-06-27,2025-08-04,2025-Q3,38,38,LinkedIn,40,SIMULATED
+R0099,Research & Development,Healthcare Representative,2025-06-24,2025-08-06,2025-Q3,41,43,Careers site,36,SIMULATED
+R0110,Research & Development,Research Scientist,2025-07-07,2025-08-10,2025-Q3,33,34,Employee referral,53,SIMULATED
+R0096,Sales,Sales Executive,2025-07-03,2025-08-11,2025-Q3,37,39,Employee referral,33,SIMULATED
+R0117,Sales,Manager,2025-07-05,2025-08-11,2025-Q3,36,37,Agency,22,SIMULATED
+R0132,Research & Development,Laboratory Technician,2025-07-06,2025-08-11,2025-Q3,32,36,LinkedIn,53,SIMULATED
+R0197,Research & Development,Research Scientist,2025-07-10,2025-08-11,2025-Q3,30,32,Agency,39,SIMULATED
+R0006,Sales,Sales Representative,2025-07-05,2025-08-14,2025-Q3,33,40,LinkedIn,35,SIMULATED
+R0223,Research & Development,Research Scientist,2025-07-14,2025-08-14,2025-Q3,31,31,LinkedIn,32,SIMULATED
+R0263,Research & Development,Laboratory Technician,2025-07-04,2025-08-16,2025-Q3,41,43,LinkedIn,48,SIMULATED
+R0183,Research & Development,Laboratory Technician,2025-07-09,2025-08-17,2025-Q3,31,39,Employee referral,51,SIMULATED
+R0238,Research & Development,Research Scientist,2025-07-20,2025-08-18,2025-Q3,27,29,Careers site,32,SIMULATED
+R0030,Sales,Sales Representative,2025-07-12,2025-08-20,2025-Q3,36,39,LinkedIn,29,SIMULATED
+R0046,Sales,Sales Representative,2025-07-12,2025-08-21,2025-Q3,33,40,Employee referral,21,SIMULATED
+R0175,Research & Development,Laboratory Technician,2025-07-16,2025-08-23,2025-Q3,38,38,LinkedIn,53,SIMULATED
+R0226,Research & Development,Laboratory Technician,2025-07-28,2025-08-25,2025-Q3,23,28,LinkedIn,35,SIMULATED
+R0164,Research & Development,Research Scientist,2025-07-30,2025-08-26,2025-Q3,24,27,Job board,35,SIMULATED
+R0064,Sales,Sales Representative,2025-07-23,2025-08-29,2025-Q3,31,37,LinkedIn,54,SIMULATED
+R0212,Research & Development,Laboratory Technician,2025-07-31,2025-08-31,2025-Q3,28,31,LinkedIn,78,SIMULATED
+R0269,Research & Development,Research Scientist,2025-07-17,2025-08-31,2025-Q3,34,45,LinkedIn,50,SIMULATED
+R0005,Research & Development,Laboratory Technician,2025-07-18,2025-09-01,2025-Q3,33,45,Job board,42,SIMULATED
+R0010,Research & Development,Laboratory Technician,2025-07-31,2025-09-02,2025-Q3,32,33,Careers site,28,SIMULATED
+R0167,Research & Development,Manufacturing Director,2025-07-20,2025-09-05,2025-Q3,44,47,Job board,43,SIMULATED
+R0086,Research & Development,Laboratory Technician,2025-07-28,2025-09-08,2025-Q3,30,42,Employee referral,63,SIMULATED
+R0169,Sales,Sales Representative,2025-08-09,2025-09-08,2025-Q3,28,30,Agency,30,SIMULATED
+R0253,Human Resources,Human Resources,2025-08-02,2025-09-10,2025-Q3,35,39,Careers site,37,SIMULATED
+R0261,Research & Development,Laboratory Technician,2025-08-19,2025-09-18,2025-Q3,30,30,Employee referral,77,SIMULATED
+R0299,Sales,Sales Representative,2025-08-20,2025-09-19,2025-Q3,26,30,LinkedIn,33,SIMULATED
+R0246,Research & Development,Laboratory Technician,2025-08-10,2025-09-20,2025-Q3,40,41,Agency,42,SIMULATED
+R0267,Research & Development,Research Scientist,2025-08-20,2025-09-22,2025-Q3,33,33,Employee referral,29,SIMULATED
+R0199,Research & Development,Laboratory Technician,2025-08-13,2025-09-26,2025-Q3,39,44,Careers site,73,SIMULATED
+R0284,Research & Development,Laboratory Technician,2025-08-15,2025-09-26,2025-Q3,39,42,LinkedIn,64,SIMULATED
+R0036,Research & Development,Laboratory Technician,2025-09-03,2025-10-03,2025-Q4,29,30,Job board,53,SIMULATED
+R0201,Research & Development,Research Scientist,2025-09-04,2025-10-04,2025-Q4,28,30,LinkedIn,79,SIMULATED
+R0219,Research & Development,Research Scientist,2025-08-25,2025-10-04,2025-Q4,40,40,Employee referral,43,SIMULATED
+R0234,Sales,Sales Representative,2025-08-26,2025-10-04,2025-Q4,36,39,Careers site,73,SIMULATED
+R0057,Research & Development,Healthcare Representative,2025-09-04,2025-10-06,2025-Q4,30,32,Job board,27,SIMULATED
+R0019,Sales,Sales Representative,2025-08-29,2025-10-10,2025-Q4,39,42,Careers site,48,SIMULATED
+R0282,Research & Development,Laboratory Technician,2025-09-08,2025-10-10,2025-Q4,32,32,Careers site,87,SIMULATED
+R0180,Research & Development,Laboratory Technician,2025-08-24,2025-10-12,2025-Q4,28,49,Job board,42,SIMULATED
+R0009,Research & Development,Manufacturing Director,2025-09-06,2025-10-20,2025-Q4,40,44,Employee referral,10,SIMULATED
+R0023,Sales,Sales Representative,2025-09-14,2025-10-25,2025-Q4,34,41,Careers site,42,SIMULATED
+R0077,Research & Development,Laboratory Technician,2025-09-19,2025-10-25,2025-Q4,31,36,Employee referral,49,SIMULATED
+R0152,Sales,Sales Executive,2025-09-19,2025-10-26,2025-Q4,34,37,Employee referral,95,SIMULATED
+R0221,Sales,Sales Executive,2025-09-19,2025-10-27,2025-Q4,36,38,Careers site,42,SIMULATED
+R0021,Research & Development,Research Scientist,2025-09-24,2025-10-28,2025-Q4,25,34,LinkedIn,60,SIMULATED
+R0060,Sales,Sales Executive,2025-09-28,2025-10-30,2025-Q4,31,32,Careers site,61,SIMULATED
+R0027,Sales,Sales Executive,2025-09-05,2025-10-31,2025-Q4,40,56,Employee referral,42,SIMULATED
+R0214,Sales,Sales Executive,2025-10-01,2025-11-05,2025-Q4,34,35,Careers site,45,SIMULATED
+R0228,Sales,Sales Executive,2025-10-17,2025-11-11,2025-Q4,23,25,Employee referral,46,SIMULATED
+R0014,Sales,Sales Executive,2025-10-04,2025-11-12,2025-Q4,32,39,Careers site,46,SIMULATED
+R0178,Sales,Sales Executive,2025-10-20,2025-11-14,2025-Q4,24,25,Employee referral,19,SIMULATED
+R0196,Sales,Sales Representative,2025-10-10,2025-11-17,2025-Q4,34,38,LinkedIn,32,SIMULATED
+R0138,Research & Development,Laboratory Technician,2025-10-22,2025-11-26,2025-Q4,30,35,LinkedIn,28,SIMULATED
+R0192,Research & Development,Research Scientist,2025-10-05,2025-11-27,2025-Q4,34,53,Job board,29,SIMULATED
+R0093,Sales,Sales Representative,2025-10-19,2025-12-02,2025-Q4,44,44,LinkedIn,25,SIMULATED
+R0040,Research & Development,Research Scientist,2025-10-25,2025-12-04,2025-Q4,33,40,Job board,65,SIMULATED
+R0222,Research & Development,Laboratory Technician,2025-11-03,2025-12-07,2025-Q4,27,34,LinkedIn,53,SIMULATED
+R0172,Sales,Sales Representative,2025-10-11,2025-12-12,2025-Q4,29,62,LinkedIn,28,SIMULATED
+R0194,Research & Development,Laboratory Technician,2025-11-17,2025-12-14,2025-Q4,23,27,Agency,87,SIMULATED
+R0043,Research & Development,Research Scientist,2025-11-15,2025-12-16,2025-Q4,28,31,Agency,52,SIMULATED
+R0241,Research & Development,Laboratory Technician,2025-11-11,2025-12-18,2025-Q4,35,37,Employee referral,121,SIMULATED
+R0011,Research & Development,Manager,2025-11-15,2025-12-21,2025-Q4,26,36,LinkedIn,17,SIMULATED
+R0107,Sales,Sales Representative,2025-10-30,2025-12-23,2025-Q4,46,54,Employee referral,25,SIMULATED
+R0103,Research & Development,Research Scientist,2025-11-25,2025-12-25,2025-Q4,28,30,Employee referral,32,SIMULATED
+R0186,Research & Development,Healthcare Representative,2025-11-06,2025-12-25,2025-Q4,46,49,Agency,19,SIMULATED
+R0042,Research & Development,Healthcare Representative,2025-12-03,2025-12-26,2025-Q4,22,23,Job board,19,SIMULATED
+R0240,Sales,Sales Executive,2025-11-24,2025-12-28,2025-Q4,34,34,LinkedIn,23,SIMULATED
+R0025,Research & Development,Laboratory Technician,2025-11-29,2026-01-01,2026-Q1,24,33,Employee referral,61,SIMULATED
+R0133,Research & Development,Laboratory Technician,2025-11-23,2026-01-04,2026-Q1,29,42,Agency,35,SIMULATED
+R0288,Sales,Sales Executive,2025-11-28,2026-01-07,2026-Q1,40,40,LinkedIn,29,SIMULATED
+R0085,Research & Development,Laboratory Technician,2025-11-27,2026-01-08,2026-Q1,39,42,Employee referral,33,SIMULATED
+R0277,Research & Development,Laboratory Technician,2025-11-30,2026-01-09,2026-Q1,36,40,Employee referral,55,SIMULATED
+R0286,Research & Development,Laboratory Technician,2025-11-30,2026-01-11,2026-Q1,28,42,LinkedIn,25,SIMULATED
+R0191,Research & Development,Laboratory Technician,2025-12-09,2026-01-13,2026-Q1,25,35,LinkedIn,60,SIMULATED
+R0204,Sales,Sales Representative,2025-12-01,2026-01-14,2026-Q1,40,44,Job board,29,SIMULATED
+R0087,Research & Development,Research Scientist,2025-12-19,2026-01-16,2026-Q1,28,28,Employee referral,27,SIMULATED
+R0044,Sales,Sales Representative,2025-12-08,2026-01-17,2026-Q1,37,40,Careers site,35,SIMULATED
+R0007,Sales,Sales Executive,2025-11-30,2026-01-19,2026-Q1,42,50,Agency,22,SIMULATED
+R0041,Sales,Sales Representative,2025-11-27,2026-01-19,2026-Q1,39,53,LinkedIn,28,SIMULATED
+R0131,Research & Development,Research Scientist,2025-12-12,2026-01-19,2026-Q1,23,38,Employee referral,85,SIMULATED
+R0145,Sales,Sales Representative,2025-12-24,2026-01-20,2026-Q1,26,27,Agency,36,SIMULATED
+R0300,Research & Development,Healthcare Representative,2025-11-23,2026-01-21,2026-Q1,43,59,Job board,46,SIMULATED
+R0260,Research & Development,Laboratory Technician,2025-12-21,2026-01-25,2026-Q1,32,35,Agency,75,SIMULATED
+R0295,Sales,Sales Executive,2025-12-27,2026-01-27,2026-Q1,30,31,Job board,35,SIMULATED
+R0068,Sales,Sales Executive,2025-12-26,2026-01-30,2026-Q1,35,35,Job board,20,SIMULATED
+R0037,Research & Development,Manufacturing Director,2025-12-26,2026-01-31,2026-Q1,33,36,LinkedIn,27,SIMULATED
+R0168,Sales,Sales Executive,2025-12-29,2026-01-31,2026-Q1,26,33,LinkedIn,20,SIMULATED
+R0071,Sales,Sales Representative,2026-01-02,2026-02-01,2026-Q1,22,30,LinkedIn,38,SIMULATED
+R0285,Research & Development,Manufacturing Director,2025-12-21,2026-02-01,2026-Q1,34,42,Employee referral,55,SIMULATED
+R0174,Sales,Sales Representative,2025-12-24,2026-02-03,2026-Q1,39,41,Agency,45,SIMULATED
+R0049,Research & Development,Laboratory Technician,2026-01-04,2026-02-05,2026-Q1,30,32,Careers site,28,SIMULATED
+R0185,Sales,Sales Executive,2026-01-11,2026-02-06,2026-Q1,26,26,Careers site,26,SIMULATED
+R0256,Sales,Sales Executive,2026-01-05,2026-02-06,2026-Q1,32,32,LinkedIn,49,SIMULATED
+R0291,Research & Development,Research Scientist,2026-01-06,2026-02-11,2026-Q1,31,36,Employee referral,93,SIMULATED
+R0209,Human Resources,Human Resources,2026-01-03,2026-02-15,2026-Q1,35,43,Employee referral,58,SIMULATED
+R0247,Sales,Sales Representative,2026-01-20,2026-02-16,2026-Q1,26,27,Job board,37,SIMULATED
+R0098,Research & Development,Research Scientist,2026-01-13,2026-02-19,2026-Q1,36,37,LinkedIn,34,SIMULATED
+R0146,Sales,Sales Representative,2026-01-23,2026-02-24,2026-Q1,27,32,LinkedIn,42,SIMULATED
+R0088,Research & Development,Research Scientist,2026-01-14,2026-02-26,2026-Q1,37,43,Employee referral,39,SIMULATED
+R0100,Research & Development,Manufacturing Director,2026-02-01,2026-02-26,2026-Q1,25,25,LinkedIn,50,SIMULATED
+R0070,Research & Development,Research Director,2026-01-25,2026-02-27,2026-Q1,28,33,LinkedIn,14,SIMULATED
+R0024,Research & Development,Healthcare Representative,2026-02-01,2026-03-02,2026-Q1,28,29,Job board,25,SIMULATED
+R0159,Research & Development,Research Scientist,2026-01-25,2026-03-04,2026-Q1,30,38,LinkedIn,41,SIMULATED
+R0029,Research & Development,Laboratory Technician,2026-01-30,2026-03-07,2026-Q1,33,36,LinkedIn,43,SIMULATED
+R0177,Research & Development,Laboratory Technician,2026-02-03,2026-03-09,2026-Q1,34,34,Employee referral,41,SIMULATED
+R0211,Research & Development,Laboratory Technician,2026-02-05,2026-03-12,2026-Q1,34,35,Employee referral,77,SIMULATED
+R0249,Research & Development,Research Scientist,2026-02-13,2026-03-12,2026-Q1,27,27,Employee referral,64,SIMULATED
+R0217,Research & Development,Laboratory Technician,2026-02-06,2026-03-14,2026-Q1,34,36,LinkedIn,46,SIMULATED
+R0171,Research & Development,Laboratory Technician,2026-02-05,2026-03-15,2026-Q1,27,38,Agency,40,SIMULATED
+R0258,Sales,Sales Executive,2026-02-14,2026-03-18,2026-Q1,25,32,Agency,56,SIMULATED
+R0156,Sales,Sales Executive,2026-02-14,2026-03-19,2026-Q1,33,33,LinkedIn,50,SIMULATED
+R0271,Research & Development,Laboratory Technician,2026-02-04,2026-03-21,2026-Q1,37,45,Careers site,41,SIMULATED
+R0018,Sales,Sales Representative,2026-02-12,2026-03-23,2026-Q1,36,39,LinkedIn,45,SIMULATED
+R0259,Research & Development,Laboratory Technician,2026-02-13,2026-03-23,2026-Q1,37,38,Job board,55,SIMULATED
+R0279,Research & Development,Research Scientist,2026-02-07,2026-03-24,2026-Q1,35,45,Employee referral,28,SIMULATED
+R0053,Sales,Sales Executive,2026-02-20,2026-03-25,2026-Q1,33,33,LinkedIn,19,SIMULATED
+R0151,Sales,Sales Representative,2026-03-01,2026-03-29,2026-Q1,28,28,Employee referral,54,SIMULATED
+R0066,Research & Development,Laboratory Technician,2026-02-15,2026-04-05,2026-Q2,48,49,LinkedIn,50,SIMULATED
+R0102,Research & Development,Laboratory Technician,2026-02-13,2026-04-06,2026-Q2,44,52,Employee referral,65,SIMULATED
+R0072,Sales,Sales Executive,2026-03-09,2026-04-09,2026-Q2,27,31,Job board,14,SIMULATED
+R0097,Sales,Sales Executive,2026-02-24,2026-04-12,2026-Q2,38,47,Job board,30,SIMULATED
+R0166,Research & Development,Laboratory Technician,2026-03-06,2026-04-12,2026-Q2,37,37,Agency,56,SIMULATED
+R0090,Research & Development,Laboratory Technician,2026-03-14,2026-04-14,2026-Q2,28,31,Careers site,83,SIMULATED
+R0139,Sales,Sales Executive,2026-02-16,2026-04-18,2026-Q2,41,61,Employee referral,45,SIMULATED
+R0015,Research & Development,Research Scientist,2026-03-08,2026-04-19,2026-Q2,30,42,LinkedIn,33,SIMULATED
+R0160,Research & Development,Laboratory Technician,2026-03-05,2026-04-19,2026-Q2,41,45,LinkedIn,23,SIMULATED
+R0200,Sales,Sales Executive,2026-03-12,2026-04-26,2026-Q2,26,45,Agency,16,SIMULATED
+R0079,Sales,Sales Executive,2026-03-16,2026-04-27,2026-Q2,39,42,LinkedIn,43,SIMULATED
+R0252,Research & Development,Research Director,2026-03-29,2026-05-04,2026-Q2,32,36,Agency,10,SIMULATED
+R0220,Research & Development,Manufacturing Director,2026-04-05,2026-05-06,2026-Q2,29,31,Careers site,24,SIMULATED
+R0243,Sales,Sales Executive,2026-03-30,2026-05-12,2026-Q2,41,43,Employee referral,26,SIMULATED
+R0091,Research & Development,Research Scientist,2026-04-12,2026-05-13,2026-Q2,27,31,Careers site,54,SIMULATED
+R0039,Research & Development,Research Scientist,2026-04-17,2026-05-14,2026-Q2,27,27,Employee referral,61,SIMULATED
+R0031,Research & Development,Laboratory Technician,2026-04-18,2026-05-15,2026-Q2,26,27,Employee referral,33,SIMULATED
+R0084,Research & Development,Laboratory Technician,2026-04-09,2026-05-16,2026-Q2,34,37,LinkedIn,47,SIMULATED
+R0230,Research & Development,Research Scientist,2026-04-09,2026-05-16,2026-Q2,36,37,LinkedIn,24,SIMULATED
+R0274,Research & Development,Research Scientist,2026-03-24,2026-05-22,2026-Q2,35,59,Employee referral,26,SIMULATED
+R0142,Research & Development,Research Scientist,2026-04-08,2026-05-25,2026-Q2,37,47,LinkedIn,45,SIMULATED
+R0239,Research & Development,Research Scientist,2026-04-22,2026-05-26,2026-Q2,29,34,Job board,45,SIMULATED
+R0111,Research & Development,Laboratory Technician,2026-04-07,2026-05-27,2026-Q2,39,50,LinkedIn,48,SIMULATED
+R0176,Research & Development,Research Scientist,2026-04-23,2026-05-27,2026-Q2,34,34,LinkedIn,30,SIMULATED
+R0069,Research & Development,Laboratory Technician,2026-04-17,2026-05-28,2026-Q2,31,41,Employee referral,38,SIMULATED
+R0245,Sales,Sales Executive,2026-04-15,2026-05-28,2026-Q2,38,43,LinkedIn,31,SIMULATED
+R0144,Sales,Sales Representative,2026-05-03,2026-05-31,2026-Q2,25,28,Employee referral,29,SIMULATED
+R0293,Sales,Sales Executive,2026-04-12,2026-06-03,2026-Q2,44,52,Careers site,37,SIMULATED
+R0150,Human Resources,Human Resources,2026-05-01,2026-06-05,2026-Q2,34,35,LinkedIn,29,SIMULATED
+R0198,Sales,Sales Representative,2026-05-11,2026-06-07,2026-Q2,27,27,Employee referral,69,SIMULATED
+R0265,Research & Development,Laboratory Technician,2026-05-09,2026-06-12,2026-Q2,26,34,Employee referral,28,SIMULATED
+R0275,Sales,Sales Representative,2026-05-09,2026-06-20,2026-Q2,35,42,Job board,46,SIMULATED
+R0075,Research & Development,Research Scientist,2026-05-07,2026-06-21,2026-Q2,43,45,LinkedIn,80,SIMULATED
+R0218,Research & Development,Research Scientist,2026-05-22,2026-06-23,2026-Q2,31,32,LinkedIn,66,SIMULATED
+R0003,Sales,Sales Representative,2026-05-24,2026-06-24,2026-Q2,30,31,LinkedIn,48,SIMULATED
+R0206,Sales,Sales Representative,2026-05-23,2026-06-26,2026-Q2,30,34,Employee referral,39,SIMULATED
+R0232,Research & Development,Laboratory Technician,2026-05-22,2026-06-27,2026-Q2,28,36,LinkedIn,51,SIMULATED
+R0083,Research & Development,Research Scientist,2026-05-28,2026-06-28,2026-Q2,30,31,Job board,51,SIMULATED
+R0121,Research & Development,Manufacturing Director,2026-05-15,2026-06-28,2026-Q2,41,44,Employee referral,31,SIMULATED
+R0189,Research & Development,Laboratory Technician,2026-05-10,2026-06-28,2026-Q2,48,49,Agency,28,SIMULATED
+R0082,Research & Development,Laboratory Technician,2026-05-26,2026-07-01,2026-Q3,36,36,Careers site,36,SIMULATED
+R0264,Research & Development,Laboratory Technician,2026-06-04,2026-07-03,2026-Q3,26,29,Job board,43,SIMULATED
+R0251,Research & Development,Research Scientist,2026-05-30,2026-07-05,2026-Q3,35,36,Job board,44,SIMULATED
+R0052,Research & Development,Research Scientist,2026-05-28,2026-07-06,2026-Q3,38,39,LinkedIn,41,SIMULATED
+R0109,Research & Development,Laboratory Technician,2026-06-08,2026-07-09,2026-Q3,31,31,LinkedIn,31,SIMULATED
+R0059,Sales,Sales Representative,2026-06-04,2026-07-11,2026-Q3,33,37,Agency,28,SIMULATED
+R0163,Research & Development,Laboratory Technician,2026-06-15,2026-07-19,2026-Q3,31,34,Employee referral,32,SIMULATED
+R0190,Research & Development,Research Scientist,2026-06-25,2026-07-19,2026-Q3,24,24,Employee referral,107,SIMULATED
+R0210,Sales,Sales Executive,2026-06-22,2026-07-19,2026-Q3,22,27,Careers site,9,SIMULATED
+R0283,Research & Development,Laboratory Technician,2026-06-15,2026-07-23,2026-Q3,34,38,Employee referral,76,SIMULATED
+R0119,Research & Development,Research Scientist,2026-06-18,2026-07-25,2026-Q3,35,37,Careers site,66,SIMULATED
+R0089,Research & Development,Research Scientist,2026-06-05,2026-07-27,2026-Q3,39,52,Agency,29,SIMULATED
+R0104,Research & Development,Research Scientist,2026-06-22,2026-07-29,2026-Q3,36,37,Careers site,32,SIMULATED
+R0278,Research & Development,Laboratory Technician,2026-06-18,2026-08-08,2026-Q3,42,51,LinkedIn,31,SIMULATED
+R0162,Sales,Sales Executive,2026-05-30,2026-08-10,2026-Q3,31,72,LinkedIn,27,SIMULATED

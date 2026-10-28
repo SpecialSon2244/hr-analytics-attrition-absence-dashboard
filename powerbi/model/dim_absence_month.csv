@@ -1,0 +1,14 @@
+month_number,month_name,season_by_month
+0,Not recorded,Not recorded
+1,Jan,Summer (Dec-Feb)
+2,Feb,Summer (Dec-Feb)
+3,Mar,Autumn (Mar-May)
+4,Apr,Autumn (Mar-May)
+5,May,Autumn (Mar-May)
+6,Jun,Winter (Jun-Aug)
+7,Jul,Winter (Jun-Aug)
+8,Aug,Winter (Jun-Aug)
+9,Sep,Spring (Sep-Nov)
+10,Oct,Spring (Sep-Nov)
+11,Nov,Spring (Sep-Nov)
+12,Dec,Summer (Dec-Feb)

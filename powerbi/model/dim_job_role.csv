@@ -1,0 +1,12 @@
+job_role_key,job_role,department_key,department_name
+1,Human Resources,1,Human Resources
+2,Manager,1,Human Resources
+3,Healthcare Representative,2,Research & Development
+4,Laboratory Technician,2,Research & Development
+5,Manager,2,Research & Development
+6,Manufacturing Director,2,Research & Development
+7,Research Director,2,Research & Development
+8,Research Scientist,2,Research & Development
+9,Manager,3,Sales
+10,Sales Executive,3,Sales
+11,Sales Representative,3,Sales
