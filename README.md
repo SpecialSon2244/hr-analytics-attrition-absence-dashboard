@@ -5,7 +5,7 @@ from two public HR datasets and a clearly labelled simulated recruiting
 pipeline, with a Tableau Public workbook spec, a Power BI model with DAX
 measures, and the findings an HR business partner would ask for.
 
-**Dashboard:** Tableau Public link to be added (build spec: [`tableau/BUILD_SPEC.md`](tableau/BUILD_SPEC.md)). Static previews below.
+**Live dashboard (Tableau Public):** [HR Analytics: Attrition, Absence & Time to Hire](https://public.tableau.com/app/profile/abhiram.ramakrishnan3146/viz/HRAnalyticsAttritionAbsenceTimetoHire/Dashboard1) (build spec: [`tableau/BUILD_SPEC.md`](tableau/BUILD_SPEC.md)). Static previews below.
 
 **Stack:** Python · DuckDB (SQL star schema) · Polars · openpyxl (Tableau-ready xlsx) · matplotlib · Tableau Public · Power BI (DAX) · Makefile
 
@@ -136,7 +136,11 @@ The absence tables (UCI) have no link to the IBM or SIMULATED tables: they are a
 
 ## Dashboards
 
-- **Tableau Public:** one dashboard, *HR Analytics: Attrition, Absence & Time to Hire*, with a band per subject area (KPI strip, attrition by role, drivers, overtime × income, absence by reason and by month/weekday, SIMULATED funnel and time to hire). Step-by-step build: [`tableau/BUILD_SPEC.md`](tableau/BUILD_SPEC.md). Data: [`tableau/hr_analytics_dashboard.xlsx`](tableau/hr_analytics_dashboard.xlsx) (CSV copies in [`exports/`](exports)). Link to be added once published.
+- **Tableau Public:** one dashboard, *HR Analytics: Attrition, Absence & Time to Hire*, with a band per subject area (KPI strip, attrition by role, drivers, overtime × income, absence by reason and by month/weekday, SIMULATED funnel and time to hire). Step-by-step build: [`tableau/BUILD_SPEC.md`](tableau/BUILD_SPEC.md). Data: [`tableau/hr_analytics_dashboard.xlsx`](tableau/hr_analytics_dashboard.xlsx) (CSV copies in [`exports/`](exports)).
+
+  **Live dashboard (Tableau Public):** [HR Analytics: Attrition, Absence & Time to Hire](https://public.tableau.com/app/profile/abhiram.ramakrishnan3146/viz/HRAnalyticsAttritionAbsenceTimetoHire/Dashboard1)
+
+  ![Tableau dashboard](tableau/screens/dashboard.png)
 - **Power BI:** [`powerbi/`](powerbi): model CSVs in [`powerbi/model/`](powerbi/model), [`RELATIONSHIPS.md`](powerbi/RELATIONSHIPS.md), [`measures.dax`](powerbi/measures.dax) (headcount, attrition rate, average tenure, absence hours and estimated absence rate, Bradford factor, time to hire and time to fill median/average, offer acceptance), [`PAGE_LAYOUT.md`](powerbi/PAGE_LAYOUT.md) and build steps with check numbers in [`powerbi/README.md`](powerbi/README.md). Metric definitions: [`docs/definitions.md`](docs/definitions.md).
 
 ## Run it

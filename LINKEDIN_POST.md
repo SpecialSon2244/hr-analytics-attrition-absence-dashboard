@@ -15,7 +15,7 @@ Stack: Python, DuckDB and SQL for the star schema, Polars for cleaning, a Tablea
 
 Biggest lesson: be honest about your data. Fictional, real and simulated data can sit in one project, but every chart has to say which one it shows.
 
-Dashboard: [Tableau Public link to be added]
+Dashboard: https://public.tableau.com/app/profile/abhiram.ramakrishnan3146/viz/HRAnalyticsAttritionAbsenceTimetoHire/Dashboard1
 Code: https://github.com/SpecialSon2244/hr-analytics-attrition-absence-dashboard
 
 Which HR metric would you add next: internal mobility, engagement, or cost per hire?

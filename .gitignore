@@ -5,3 +5,4 @@ data/*.duckdb
 data/*.duckdb.wal
 *.pyc
 .DS_Store
+tableau/screens/part*.png
