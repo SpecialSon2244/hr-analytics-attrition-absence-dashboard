@@ -15,7 +15,7 @@ FROM fact_attrition_snapshot;
 SELECT d.department_name AS department, count(*) AS employees, sum(is_leaver) AS leavers,
        round(100.0 * sum(is_leaver) / count(*), 1) AS attrition_pct
 FROM fact_attrition_snapshot f JOIN dim_department d USING (department_key)
-GROUP BY 1 ORDER BY attrition_pct DESC;
+GROUP BY 1 ORDER BY attrition_pct DESC, 1;
 
 -- name: f3_by_overtime
 SELECT e.overtime, count(*) AS employees, sum(is_leaver) AS leavers,
@@ -27,7 +27,7 @@ GROUP BY 1 ORDER BY 1;
 SELECT e.job_role, count(*) AS employees, sum(is_leaver) AS leavers,
        round(100.0 * sum(is_leaver) / count(*), 1) AS attrition_pct
 FROM fact_attrition_snapshot f JOIN dim_employee e USING (employee_key)
-GROUP BY 1 ORDER BY attrition_pct DESC;
+GROUP BY 1 ORDER BY attrition_pct DESC, 1;
 
 -- name: f5_by_tenure_band
 SELECT e.tenure_band, count(*) AS employees, sum(is_leaver) AS leavers,
@@ -45,7 +45,7 @@ GROUP BY 1 ORDER BY 1;
 SELECT e.business_travel, count(*) AS employees, sum(is_leaver) AS leavers,
        round(100.0 * sum(is_leaver) / count(*), 1) AS attrition_pct
 FROM fact_attrition_snapshot f JOIN dim_employee e USING (employee_key)
-GROUP BY 1 ORDER BY attrition_pct DESC;
+GROUP BY 1 ORDER BY attrition_pct DESC, 1;
 
 -- name: f8_by_age_band
 SELECT e.age_band, count(*) AS employees, sum(is_leaver) AS leavers,
@@ -94,7 +94,7 @@ SELECT r.reason_code, r.reason_name, r.reason_group, count(*) AS records, sum(ab
        round(100.0 * sum(absence_hours) / (SELECT sum(absence_hours) FROM fact_absence), 1) AS pct_of_hours,
        round(avg(absence_hours), 1) AS avg_hours
 FROM fact_absence a JOIN dim_absence_reason r USING (reason_code)
-GROUP BY ALL ORDER BY hours DESC;
+GROUP BY ALL ORDER BY hours DESC, 1;
 
 -- name: f22_absence_by_weekday
 SELECT iso_weekday, weekday_name, count(*) AS records, sum(absence_hours) AS hours,
@@ -106,7 +106,7 @@ FROM fact_absence GROUP BY ALL ORDER BY 1;
 SELECT season_by_month, count(*) AS records, sum(absence_hours) AS hours,
        round(100.0 * sum(absence_hours) / (SELECT sum(absence_hours) FROM fact_absence), 1) AS pct_of_hours,
        round(avg(absence_hours), 1) AS avg_hours
-FROM fact_absence WHERE month_number BETWEEN 1 AND 12 GROUP BY ALL ORDER BY hours DESC;
+FROM fact_absence WHERE month_number BETWEEN 1 AND 12 GROUP BY ALL ORDER BY hours DESC, 1;
 
 -- name: f24_absence_by_month
 SELECT month_number, month_name, count(*) AS records, sum(absence_hours) AS hours,
@@ -135,7 +135,7 @@ WITH b AS (
            sum(absence_hours) AS hours,
            round((sum(is_absence_spell) / 3.0) ^ 2 * (sum(absence_days_8h) / 3.0)) AS bradford_annual
     FROM fact_absence GROUP BY 1)
-SELECT * FROM b ORDER BY bradford_annual DESC LIMIT 10;
+SELECT * FROM b ORDER BY bradford_annual DESC, 1 LIMIT 10;
 
 -- name: f26_disciplinary
 SELECT disciplinary_failure, count(*) AS records, sum(absence_hours) AS hours
@@ -164,7 +164,7 @@ SELECT source, count(*) AS applicants, sum((offer_date IS NOT NULL)::INT) AS off
        round(100.0 * sum((offer_outcome = 'Accepted')::INT) / count(*), 2) AS hire_per_100_applicants,
        round(100.0 * sum((offer_outcome = 'Accepted')::INT) / nullif(sum((offer_outcome IN ('Accepted', 'Declined'))::INT), 0), 1) AS offer_accept_pct,
        round(avg(time_to_hire_days), 1) AS avg_time_to_hire_days
-FROM fact_candidate GROUP BY 1 ORDER BY hire_per_100_applicants DESC;
+FROM fact_candidate GROUP BY 1 ORDER BY hire_per_100_applicants DESC, 1;
 
 -- name: f33_by_department_SIMULATED
 SELECT d.department_name AS department, count(*) AS requisitions, sum((status = 'Filled')::INT) AS filled,
@@ -174,7 +174,7 @@ SELECT d.department_name AS department, count(*) AS requisitions, sum((status = 
        median(time_to_hire_days) AS median_time_to_hire_days,
        sum(applicants) AS applicants, sum(offers) AS offers
 FROM fact_requisition r JOIN dim_department d USING (department_key)
-GROUP BY 1 ORDER BY requisitions DESC;
+GROUP BY 1 ORDER BY requisitions DESC, 1;
 
 -- name: f34_hires_by_quarter_SIMULATED
 SELECT year(closed_date) || '-Q' || quarter(closed_date) AS quarter_filled, count(*) AS hires,

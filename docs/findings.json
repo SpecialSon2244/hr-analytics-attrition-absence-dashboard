@@ -78,15 +78,15 @@
    "attrition_pct": 16.1
   },
   {
-   "job_role": "Manufacturing Director",
-   "employees": 145,
-   "leavers": 10,
-   "attrition_pct": 6.9
-  },
-  {
    "job_role": "Healthcare Representative",
    "employees": 131,
    "leavers": 9,
+   "attrition_pct": 6.9
+  },
+  {
+   "job_role": "Manufacturing Director",
+   "employees": 145,
+   "leavers": 10,
    "attrition_pct": 6.9
   },
   {
@@ -538,15 +538,6 @@
    "avg_hours": 5.3
   },
   {
-   "reason_code": 24,
-   "reason_name": "Blood donation",
-   "reason_group": "Non-ICD",
-   "records": 3,
-   "hours": 24,
-   "pct_of_hours": 0.5,
-   "avg_hours": 8.0
-  },
-  {
    "reason_code": 2,
    "reason_name": "Neoplasms",
    "reason_group": "ICD disease",
@@ -554,6 +545,15 @@
    "hours": 24,
    "pct_of_hours": 0.5,
    "avg_hours": 24.0
+  },
+  {
+   "reason_code": 24,
+   "reason_name": "Blood donation",
+   "reason_group": "Non-ICD",
+   "records": 3,
+   "hours": 24,
+   "pct_of_hours": 0.5,
+   "avg_hours": 8.0
   },
   {
    "reason_code": 5,
@@ -583,8 +583,8 @@
    "avg_hours": 4.5
   },
   {
-   "reason_code": 17,
-   "reason_name": "Congenital malformations",
+   "reason_code": 3,
+   "reason_name": "Blood and immune disorders",
    "reason_group": "ICD disease",
    "records": 1,
    "hours": 8,
@@ -592,8 +592,8 @@
    "avg_hours": 8.0
   },
   {
-   "reason_code": 3,
-   "reason_name": "Blood and immune disorders",
+   "reason_code": 17,
+   "reason_name": "Congenital malformations",
    "reason_group": "ICD disease",
    "records": 1,
    "hours": 8,

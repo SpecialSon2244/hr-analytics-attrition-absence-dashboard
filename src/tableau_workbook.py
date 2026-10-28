@@ -48,7 +48,7 @@ SHEETS = {
                round(avg(f.tenure_years), 1) AS "Avg tenure (years)",
                (SELECT round(100.0 * sum(is_leaver) / count(*), 1) FROM fact_attrition_snapshot) AS "Company attrition rate %"
         FROM fact_attrition_snapshot f JOIN dim_employee e USING (employee_key)
-        GROUP BY ALL ORDER BY "Attrition rate %" DESC""",
+        GROUP BY ALL ORDER BY "Attrition rate %" DESC, 1""",
     "attrition_drivers": f"""SELECT * FROM ({drivers_sql}) ORDER BY "Factor order", "Group order" """,
     "overtime_income": f"""
         SELECT 'Overtime: ' || e.overtime AS "Overtime",
@@ -63,7 +63,7 @@ SHEETS = {
                round(100.0 * sum(a.absence_hours) / (SELECT sum(absence_hours) FROM fact_absence), 1) AS "Share of hours %",
                round(avg(a.absence_hours), 1) AS "Avg hours per record"
         FROM fact_absence a JOIN dim_absence_reason r USING (reason_code)
-        GROUP BY ALL HAVING sum(a.absence_hours) > 0 ORDER BY "Absence hours" DESC""",
+        GROUP BY ALL HAVING sum(a.absence_hours) > 0 ORDER BY "Absence hours" DESC, 1""",
     "absence_calendar": """
         SELECT m.month_number AS "Month number", m.month_name AS "Month",
                w.iso_weekday AS "Weekday number", w.weekday_name AS "Weekday",
@@ -105,7 +105,7 @@ SHEETS = {
                round(100.0 * any_value(o.acc) / any_value(o.dec), 1) AS "Offer acceptance %",
                'SIMULATED' AS "Data"
         FROM fact_requisition r JOIN dim_department d USING (department_key) JOIN o USING (department_key)
-        GROUP BY 1 ORDER BY 2 DESC""",
+        GROUP BY 1 ORDER BY 2 DESC, 1""",
 }
 
 

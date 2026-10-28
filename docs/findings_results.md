@@ -32,8 +32,8 @@ IBM tables are fictional data; `_SIMULATED` sections come from the simulated rec
 | Human Resources | 52 | 12 | 23.1 |
 | Sales Executive | 326 | 57 | 17.5 |
 | Research Scientist | 292 | 47 | 16.1 |
-| Manufacturing Director | 145 | 10 | 6.9 |
 | Healthcare Representative | 131 | 9 | 6.9 |
+| Manufacturing Director | 145 | 10 | 6.9 |
 | Manager | 102 | 5 | 4.9 |
 | Research Director | 80 | 2 | 2.5 |
 
@@ -142,13 +142,13 @@ IBM tables are fictional data; `_SIMULATED` sections come from the simulated rec
 | 25 | Laboratory examination | Non-ICD | 31 | 108 | 2.1 | 3.5 |
 | 21 | Factors influencing health status | ICD disease | 6 | 35 | 0.7 | 5.8 |
 | 8 | Ear and mastoid | ICD disease | 6 | 32 | 0.6 | 5.3 |
-| 24 | Blood donation | Non-ICD | 3 | 24 | 0.5 | 8 |
 | 2 | Neoplasms | ICD disease | 1 | 24 | 0.5 | 24 |
+| 24 | Blood donation | Non-ICD | 3 | 24 | 0.5 | 8 |
 | 5 | Mental and behavioural disorders | ICD disease | 3 | 19 | 0.4 | 6.3 |
 | 15 | Pregnancy and childbirth | ICD disease | 2 | 16 | 0.3 | 8 |
 | 4 | Endocrine, nutritional, metabolic | ICD disease | 2 | 9 | 0.2 | 4.5 |
-| 17 | Congenital malformations | ICD disease | 1 | 8 | 0.2 | 8 |
 | 3 | Blood and immune disorders | ICD disease | 1 | 8 | 0.2 | 8 |
+| 17 | Congenital malformations | ICD disease | 1 | 8 | 0.2 | 8 |
 | 16 | Perinatal conditions | ICD disease | 3 | 6 | 0.1 | 2 |
 | 0 | No reason recorded | No reason recorded | 43 | 0 | 0 | 0 |
 
