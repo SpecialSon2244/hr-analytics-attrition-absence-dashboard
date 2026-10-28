@@ -1,0 +1,301 @@
+requisition_id,department,job_role,job_level,opened_date,closed_date,status,hired_candidate_id,is_simulated
+R0001,Sales,Sales Representative,1,2025-02-16,2025-03-22,Filled,C000015,True
+R0002,Sales,Sales Executive,2,2025-01-16,,Open,,True
+R0003,Sales,Sales Representative,1,2026-05-24,2026-06-24,Filled,C000109,True
+R0004,Research & Development,Laboratory Technician,1,2026-03-26,,Open,,True
+R0005,Research & Development,Laboratory Technician,1,2025-07-18,2025-09-01,Filled,C000173,True
+R0006,Sales,Sales Representative,1,2025-07-05,2025-08-14,Filled,C000203,True
+R0007,Sales,Sales Executive,2,2025-11-30,2026-01-19,Filled,C000226,True
+R0008,Human Resources,Human Resources,1,2025-02-23,2025-03-22,Filled,C000265,True
+R0009,Research & Development,Manufacturing Director,2,2025-09-06,2025-10-20,Filled,C000293,True
+R0010,Research & Development,Laboratory Technician,1,2025-07-31,2025-09-02,Filled,C000303,True
+R0011,Research & Development,Manager,4,2025-11-15,2025-12-21,Filled,C000336,True
+R0012,Sales,Sales Representative,1,2025-05-06,2025-06-14,Filled,C000366,True
+R0013,Research & Development,Research Scientist,1,2025-08-17,,Open,,True
+R0014,Sales,Sales Executive,2,2025-10-04,2025-11-12,Filled,C000451,True
+R0015,Research & Development,Research Scientist,1,2026-03-08,2026-04-19,Filled,C000469,True
+R0016,Sales,Sales Representative,1,2025-03-13,2025-04-21,Filled,C000501,True
+R0017,Research & Development,Research Scientist,1,2025-01-17,2025-02-27,Filled,C000552,True
+R0018,Sales,Sales Representative,1,2026-02-12,2026-03-23,Filled,C000576,True
+R0019,Sales,Sales Representative,1,2025-08-29,2025-10-10,Filled,C000608,True
+R0020,Sales,Sales Representative,1,2025-01-26,2025-03-03,Filled,C000697,True
+R0021,Research & Development,Research Scientist,1,2025-09-24,2025-10-28,Filled,C000734,True
+R0022,Sales,Sales Executive,2,2025-02-15,2025-03-24,Filled,C000770,True
+R0023,Sales,Sales Representative,1,2025-09-14,2025-10-25,Filled,C000826,True
+R0024,Research & Development,Healthcare Representative,2,2026-02-01,2026-03-02,Filled,C000839,True
+R0025,Research & Development,Laboratory Technician,1,2025-11-29,2026-01-01,Filled,C000916,True
+R0026,Research & Development,Laboratory Technician,1,2025-03-21,2025-04-26,Filled,C000939,True
+R0027,Sales,Sales Executive,2,2025-09-05,2025-10-31,Filled,C000949,True
+R0028,Sales,Sales Executive,2,2025-10-14,,Open,,True
+R0029,Research & Development,Laboratory Technician,1,2026-01-30,2026-03-07,Filled,C001045,True
+R0030,Sales,Sales Representative,1,2025-07-12,2025-08-20,Filled,C001079,True
+R0031,Research & Development,Laboratory Technician,1,2026-04-18,2026-05-15,Filled,C001098,True
+R0032,Human Resources,Human Resources,1,2025-02-01,2025-03-07,Filled,C001137,True
+R0033,Sales,Sales Executive,2,2025-01-22,2025-02-27,Filled,C001190,True
+R0034,Research & Development,Laboratory Technician,1,2026-04-01,,Open,,True
+R0035,Research & Development,Research Scientist,1,2025-02-14,2025-03-17,Filled,C001288,True
+R0036,Research & Development,Laboratory Technician,1,2025-09-03,2025-10-03,Filled,C001344,True
+R0037,Research & Development,Manufacturing Director,2,2025-12-26,2026-01-31,Filled,C001364,True
+R0038,Research & Development,Research Scientist,1,2025-06-23,2025-07-25,Filled,C001408,True
+R0039,Research & Development,Research Scientist,1,2026-04-17,2026-05-14,Filled,C001498,True
+R0040,Research & Development,Research Scientist,1,2025-10-25,2025-12-04,Filled,C001546,True
+R0041,Sales,Sales Representative,1,2025-11-27,2026-01-19,Filled,C001577,True
+R0042,Research & Development,Healthcare Representative,2,2025-12-03,2025-12-26,Filled,C001611,True
+R0043,Research & Development,Research Scientist,1,2025-11-15,2025-12-16,Filled,C001671,True
+R0044,Sales,Sales Representative,1,2025-12-08,2026-01-17,Filled,C001705,True
+R0045,Human Resources,Human Resources,1,2025-05-31,2025-07-13,Filled,C001708,True
+R0046,Sales,Sales Representative,1,2025-07-12,2025-08-21,Filled,C001754,True
+R0047,Research & Development,Research Scientist,1,2025-03-23,2025-05-05,Filled,C001769,True
+R0048,Research & Development,Research Scientist,1,2025-03-17,2025-05-05,Filled,C001824,True
+R0049,Research & Development,Laboratory Technician,1,2026-01-04,2026-02-05,Filled,C001827,True
+R0050,Research & Development,Laboratory Technician,1,2025-01-20,2025-03-01,Filled,C001855,True
+R0051,Research & Development,Laboratory Technician,1,2025-03-09,2025-04-12,Filled,C001889,True
+R0052,Research & Development,Research Scientist,1,2026-05-28,2026-07-06,Filled,C001958,True
+R0053,Sales,Sales Executive,2,2026-02-20,2026-03-25,Filled,C001978,True
+R0054,Sales,Sales Executive,2,2025-05-26,2025-07-16,Filled,C002003,True
+R0055,Research & Development,Laboratory Technician,1,2025-09-28,2025-10-21,Cancelled,,True
+R0056,Research & Development,Healthcare Representative,2,2025-03-09,,Open,,True
+R0057,Research & Development,Healthcare Representative,2,2025-09-04,2025-10-06,Filled,C002106,True
+R0058,Sales,Sales Executive,2,2025-04-28,,Open,,True
+R0059,Sales,Sales Representative,1,2026-06-04,2026-07-11,Filled,C002170,True
+R0060,Sales,Sales Executive,2,2025-09-28,2025-10-30,Filled,C002211,True
+R0061,Sales,Sales Executive,2,2025-05-06,,Open,,True
+R0062,Sales,Sales Representative,1,2025-09-02,,Open,,True
+R0063,Sales,Sales Executive,2,2025-05-25,2025-07-08,Filled,C002329,True
+R0064,Sales,Sales Representative,1,2025-07-23,2025-08-29,Filled,C002353,True
+R0065,Research & Development,Research Scientist,1,2025-06-15,2025-07-21,Filled,C002398,True
+R0066,Research & Development,Laboratory Technician,1,2026-02-15,2026-04-05,Filled,C002444,True
+R0067,Research & Development,Laboratory Technician,1,2025-03-02,2025-04-15,Filled,C002462,True
+R0068,Sales,Sales Executive,2,2025-12-26,2026-01-30,Filled,C002511,True
+R0069,Research & Development,Laboratory Technician,1,2026-04-17,2026-05-28,Filled,C002545,True
+R0070,Research & Development,Research Director,4,2026-01-25,2026-02-27,Filled,C002557,True
+R0071,Sales,Sales Representative,1,2026-01-02,2026-02-01,Filled,C002597,True
+R0072,Sales,Sales Executive,2,2026-03-09,2026-04-09,Filled,C002615,True
+R0073,Research & Development,Manufacturing Director,2,2025-02-04,2025-03-05,Filled,C002650,True
+R0074,Sales,Sales Representative,1,2025-06-10,2025-07-08,Filled,C002683,True
+R0075,Research & Development,Research Scientist,1,2026-05-07,2026-06-21,Filled,C002729,True
+R0076,Sales,Sales Executive,2,2026-04-16,2026-05-16,Cancelled,,True
+R0077,Research & Development,Laboratory Technician,1,2025-09-19,2025-10-25,Filled,C002846,True
+R0078,Research & Development,Laboratory Technician,1,2025-05-29,2025-06-25,Filled,C002887,True
+R0079,Sales,Sales Executive,2,2026-03-16,2026-04-27,Filled,C002965,True
+R0080,Research & Development,Research Scientist,1,2025-01-07,2025-02-16,Filled,C003015,True
+R0081,Sales,Sales Executive,2,2025-06-01,2025-06-27,Filled,C003049,True
+R0082,Research & Development,Laboratory Technician,1,2026-05-26,2026-07-01,Filled,C003073,True
+R0083,Research & Development,Research Scientist,1,2026-05-28,2026-06-28,Filled,C003141,True
+R0084,Research & Development,Laboratory Technician,1,2026-04-09,2026-05-16,Filled,C003175,True
+R0085,Research & Development,Laboratory Technician,1,2025-11-27,2026-01-08,Filled,C003226,True
+R0086,Research & Development,Laboratory Technician,1,2025-07-28,2025-09-08,Filled,C003267,True
+R0087,Research & Development,Research Scientist,1,2025-12-19,2026-01-16,Filled,C003302,True
+R0088,Research & Development,Research Scientist,1,2026-01-14,2026-02-26,Filled,C003339,True
+R0089,Research & Development,Research Scientist,1,2026-06-05,2026-07-27,Filled,C003377,True
+R0090,Research & Development,Laboratory Technician,1,2026-03-14,2026-04-14,Filled,C003451,True
+R0091,Research & Development,Research Scientist,1,2026-04-12,2026-05-13,Filled,C003475,True
+R0092,Research & Development,Laboratory Technician,1,2025-11-11,2025-12-10,Cancelled,,True
+R0093,Sales,Sales Representative,1,2025-10-19,2025-12-02,Filled,C003632,True
+R0094,Research & Development,Research Scientist,1,2025-04-19,2025-05-23,Filled,C003659,True
+R0095,Human Resources,Human Resources,1,2025-04-30,2025-06-26,Filled,C003774,True
+R0096,Sales,Sales Executive,2,2025-07-03,2025-08-11,Filled,C003782,True
+R0097,Sales,Sales Executive,2,2026-02-24,2026-04-12,Filled,C003814,True
+R0098,Research & Development,Research Scientist,1,2026-01-13,2026-02-19,Filled,C003850,True
+R0099,Research & Development,Healthcare Representative,2,2025-06-24,2025-08-06,Filled,C003907,True
+R0100,Research & Development,Manufacturing Director,2,2026-02-01,2026-02-26,Filled,C003951,True
+R0101,Research & Development,Research Scientist,1,2025-02-16,2025-03-26,Filled,C003997,True
+R0102,Research & Development,Laboratory Technician,1,2026-02-13,2026-04-06,Filled,C004069,True
+R0103,Research & Development,Research Scientist,1,2025-11-25,2025-12-25,Filled,C004090,True
+R0104,Research & Development,Research Scientist,1,2026-06-22,2026-07-29,Filled,C004116,True
+R0105,Research & Development,Research Scientist,1,2025-01-24,2025-03-10,Filled,C004174,True
+R0106,Research & Development,Manufacturing Director,2,2025-05-28,2025-07-01,Filled,C004202,True
+R0107,Sales,Sales Representative,1,2025-10-30,2025-12-23,Filled,C004230,True
+R0108,Research & Development,Manager,4,2025-07-27,,Open,,True
+R0109,Research & Development,Laboratory Technician,1,2026-06-08,2026-07-09,Filled,C004270,True
+R0110,Research & Development,Research Scientist,1,2025-07-07,2025-08-10,Filled,C004309,True
+R0111,Research & Development,Laboratory Technician,1,2026-04-07,2026-05-27,Filled,C004366,True
+R0112,Sales,Sales Representative,1,2025-02-24,,Open,,True
+R0113,Sales,Sales Executive,2,2025-02-11,,Open,,True
+R0114,Sales,Sales Executive,2,2025-04-15,2025-05-11,Filled,C004502,True
+R0115,Human Resources,Human Resources,1,2026-04-22,,Open,,True
+R0116,Sales,Sales Executive,2,2025-02-18,2025-04-30,Filled,C004572,True
+R0117,Sales,Manager,4,2025-07-05,2025-08-11,Filled,C004603,True
+R0118,Sales,Sales Executive,2,2025-03-31,2025-05-01,Filled,C004621,True
+R0119,Research & Development,Research Scientist,1,2026-06-18,2026-07-25,Filled,C004663,True
+R0120,Research & Development,Research Scientist,1,2026-02-27,,Open,,True
+R0121,Research & Development,Manufacturing Director,2,2026-05-15,2026-06-28,Filled,C004718,True
+R0122,Research & Development,Research Scientist,1,2025-12-08,,Open,,True
+R0123,Research & Development,Laboratory Technician,1,2025-03-01,2025-04-11,Filled,C004807,True
+R0124,Research & Development,Manufacturing Director,2,2026-06-27,,Open,,True
+R0125,Research & Development,Laboratory Technician,1,2025-01-16,2025-02-23,Filled,C004869,True
+R0126,Sales,Sales Executive,2,2025-01-01,2025-02-03,Filled,C004886,True
+R0127,Research & Development,Manufacturing Director,2,2025-01-22,2025-03-01,Filled,C004924,True
+R0128,Research & Development,Laboratory Technician,1,2025-02-12,2025-03-19,Filled,C004932,True
+R0129,Sales,Manager,4,2025-02-28,,Open,,True
+R0130,Sales,Sales Executive,2,2025-06-19,2025-07-25,Filled,C004984,True
+R0131,Research & Development,Research Scientist,1,2025-12-12,2026-01-19,Filled,C005040,True
+R0132,Research & Development,Laboratory Technician,1,2025-07-06,2025-08-11,Filled,C005087,True
+R0133,Research & Development,Laboratory Technician,1,2025-11-23,2026-01-04,Filled,C005137,True
+R0134,Human Resources,Human Resources,1,2025-06-10,2025-07-19,Filled,C005190,True
+R0135,Sales,Sales Representative,1,2025-03-24,2025-05-04,Filled,C005208,True
+R0136,Research & Development,Laboratory Technician,1,2025-03-30,2025-05-06,Filled,C005273,True
+R0137,Research & Development,Manufacturing Director,2,2025-10-03,,Open,,True
+R0138,Research & Development,Laboratory Technician,1,2025-10-22,2025-11-26,Filled,C005371,True
+R0139,Sales,Sales Executive,2,2026-02-16,2026-04-18,Filled,C005396,True
+R0140,Research & Development,Research Scientist,1,2025-05-30,2025-06-27,Filled,C005444,True
+R0141,Sales,Sales Representative,1,2025-03-23,2025-04-15,Filled,C005473,True
+R0142,Research & Development,Research Scientist,1,2026-04-08,2026-05-25,Filled,C005509,True
+R0143,Sales,Sales Executive,2,2026-01-29,,Open,,True
+R0144,Sales,Sales Representative,1,2026-05-03,2026-05-31,Filled,C005557,True
+R0145,Sales,Sales Representative,1,2025-12-24,2026-01-20,Filled,C005603,True
+R0146,Sales,Sales Representative,1,2026-01-23,2026-02-24,Filled,C005620,True
+R0147,Research & Development,Manager,4,2026-02-05,,Open,,True
+R0148,Sales,Sales Executive,2,2025-12-06,,Open,,True
+R0149,Research & Development,Manufacturing Director,2,2025-02-20,,Open,,True
+R0150,Human Resources,Human Resources,1,2026-05-01,2026-06-05,Filled,C005756,True
+R0151,Sales,Sales Representative,1,2026-03-01,2026-03-29,Filled,C005786,True
+R0152,Sales,Sales Executive,2,2025-09-19,2025-10-26,Filled,C005906,True
+R0153,Research & Development,Research Scientist,1,2025-04-02,2025-05-15,Filled,C005927,True
+R0154,Sales,Sales Executive,2,2025-06-14,2025-07-20,Filled,C005976,True
+R0155,Sales,Sales Executive,2,2025-06-14,2025-07-29,Filled,C006003,True
+R0156,Sales,Sales Executive,2,2026-02-14,2026-03-19,Filled,C006034,True
+R0157,Research & Development,Manufacturing Director,2,2025-06-04,2025-06-28,Filled,C006071,True
+R0158,Research & Development,Healthcare Representative,2,2025-06-27,2025-08-04,Filled,C006119,True
+R0159,Research & Development,Research Scientist,1,2026-01-25,2026-03-04,Filled,C006141,True
+R0160,Research & Development,Laboratory Technician,1,2026-03-05,2026-04-19,Filled,C006197,True
+R0161,Research & Development,Manufacturing Director,2,2026-04-13,,Open,,True
+R0162,Sales,Sales Executive,2,2026-05-30,2026-08-10,Filled,C006223,True
+R0163,Research & Development,Laboratory Technician,1,2026-06-15,2026-07-19,Filled,C006246,True
+R0164,Research & Development,Research Scientist,1,2025-07-30,2025-08-26,Filled,C006299,True
+R0165,Research & Development,Healthcare Representative,2,2025-09-11,,Open,,True
+R0166,Research & Development,Laboratory Technician,1,2026-03-06,2026-04-12,Filled,C006379,True
+R0167,Research & Development,Manufacturing Director,2,2025-07-20,2025-09-05,Filled,C006429,True
+R0168,Sales,Sales Executive,2,2025-12-29,2026-01-31,Filled,C006435,True
+R0169,Sales,Sales Representative,1,2025-08-09,2025-09-08,Filled,C006476,True
+R0170,Research & Development,Laboratory Technician,1,2025-03-26,2025-05-07,Filled,C006510,True
+R0171,Research & Development,Laboratory Technician,1,2026-02-05,2026-03-15,Filled,C006549,True
+R0172,Sales,Sales Representative,1,2025-10-11,2025-12-12,Filled,C006599,True
+R0173,Research & Development,Laboratory Technician,1,2025-06-17,2025-07-28,Filled,C006611,True
+R0174,Sales,Sales Representative,1,2025-12-24,2026-02-03,Filled,C006671,True
+R0175,Research & Development,Laboratory Technician,1,2025-07-16,2025-08-23,Filled,C006695,True
+R0176,Research & Development,Research Scientist,1,2026-04-23,2026-05-27,Filled,C006758,True
+R0177,Research & Development,Laboratory Technician,1,2026-02-03,2026-03-09,Filled,C006773,True
+R0178,Sales,Sales Executive,2,2025-10-20,2025-11-14,Filled,C006809,True
+R0179,Research & Development,Research Scientist,1,2025-01-05,2025-02-10,Filled,C006846,True
+R0180,Research & Development,Laboratory Technician,1,2025-08-24,2025-10-12,Filled,C006893,True
+R0181,Research & Development,Manufacturing Director,2,2026-03-12,,Open,,True
+R0182,Research & Development,Laboratory Technician,1,2025-06-15,2025-07-31,Filled,C006942,True
+R0183,Research & Development,Laboratory Technician,1,2025-07-09,2025-08-17,Filled,C006999,True
+R0184,Research & Development,Research Scientist,1,2025-03-24,2025-04-30,Filled,C007027,True
+R0185,Sales,Sales Executive,2,2026-01-11,2026-02-06,Filled,C007072,True
+R0186,Research & Development,Healthcare Representative,2,2025-11-06,2025-12-25,Filled,C007100,True
+R0187,Research & Development,Healthcare Representative,2,2025-06-21,2025-07-28,Filled,C007118,True
+R0188,Research & Development,Healthcare Representative,2,2025-01-15,,Open,,True
+R0189,Research & Development,Laboratory Technician,1,2026-05-10,2026-06-28,Filled,C007170,True
+R0190,Research & Development,Research Scientist,1,2026-06-25,2026-07-19,Filled,C007251,True
+R0191,Research & Development,Laboratory Technician,1,2025-12-09,2026-01-13,Filled,C007308,True
+R0192,Research & Development,Research Scientist,1,2025-10-05,2025-11-27,Filled,C007357,True
+R0193,Research & Development,Laboratory Technician,1,2025-02-17,2025-03-27,Filled,C007377,True
+R0194,Research & Development,Laboratory Technician,1,2025-11-17,2025-12-14,Filled,C007425,True
+R0195,Sales,Sales Representative,1,2025-04-22,2025-05-31,Filled,C007526,True
+R0196,Sales,Sales Representative,1,2025-10-10,2025-11-17,Filled,C007553,True
+R0197,Research & Development,Research Scientist,1,2025-07-10,2025-08-11,Filled,C007602,True
+R0198,Sales,Sales Representative,1,2026-05-11,2026-06-07,Filled,C007616,True
+R0199,Research & Development,Laboratory Technician,1,2025-08-13,2025-09-26,Filled,C007728,True
+R0200,Sales,Sales Executive,2,2026-03-12,2026-04-26,Filled,C007758,True
+R0201,Research & Development,Research Scientist,1,2025-09-04,2025-10-04,Filled,C007834,True
+R0202,Research & Development,Research Scientist,1,2026-04-18,,Open,,True
+R0203,Research & Development,Research Director,4,2026-04-19,,Open,,True
+R0204,Sales,Sales Representative,1,2025-12-01,2026-01-14,Filled,C007926,True
+R0205,Sales,Sales Executive,2,2025-02-04,,Open,,True
+R0206,Sales,Sales Representative,1,2026-05-23,2026-06-26,Filled,C008023,True
+R0207,Sales,Sales Executive,2,2025-07-25,,Open,,True
+R0208,Research & Development,Manufacturing Director,2,2025-05-14,2025-07-02,Filled,C008081,True
+R0209,Human Resources,Human Resources,1,2026-01-03,2026-02-15,Filled,C008126,True
+R0210,Sales,Sales Executive,2,2026-06-22,2026-07-19,Filled,C008156,True
+R0211,Research & Development,Laboratory Technician,1,2026-02-05,2026-03-12,Filled,C008224,True
+R0212,Research & Development,Laboratory Technician,1,2025-07-31,2025-08-31,Filled,C008312,True
+R0213,Sales,Sales Executive,2,2025-10-04,,Open,,True
+R0214,Sales,Sales Executive,2,2025-10-01,2025-11-05,Filled,C008367,True
+R0215,Research & Development,Laboratory Technician,1,2025-01-08,2025-02-16,Filled,C008401,True
+R0216,Research & Development,Healthcare Representative,2,2025-08-16,,Open,,True
+R0217,Research & Development,Laboratory Technician,1,2026-02-06,2026-03-14,Filled,C008457,True
+R0218,Research & Development,Research Scientist,1,2026-05-22,2026-06-23,Filled,C008476,True
+R0219,Research & Development,Research Scientist,1,2025-08-25,2025-10-04,Filled,C008570,True
+R0220,Research & Development,Manufacturing Director,2,2026-04-05,2026-05-06,Filled,C008589,True
+R0221,Sales,Sales Executive,2,2025-09-19,2025-10-27,Filled,C008632,True
+R0222,Research & Development,Laboratory Technician,1,2025-11-03,2025-12-07,Filled,C008664,True
+R0223,Research & Development,Research Scientist,1,2025-07-14,2025-08-14,Filled,C008721,True
+R0224,Human Resources,Human Resources,1,2025-02-23,2025-03-30,Filled,C008740,True
+R0225,Research & Development,Manufacturing Director,2,2025-04-23,2025-05-20,Filled,C008783,True
+R0226,Research & Development,Laboratory Technician,1,2025-07-28,2025-08-25,Filled,C008804,True
+R0227,Sales,Sales Executive,2,2025-03-29,,Open,,True
+R0228,Sales,Sales Executive,2,2025-10-17,2025-11-11,Filled,C008879,True
+R0229,Research & Development,Manufacturing Director,2,2025-04-13,2025-05-19,Filled,C008927,True
+R0230,Research & Development,Research Scientist,1,2026-04-09,2026-05-16,Filled,C008940,True
+R0231,Sales,Sales Executive,2,2025-04-19,2025-06-05,Filled,C008967,True
+R0232,Research & Development,Laboratory Technician,1,2026-05-22,2026-06-27,Filled,C009016,True
+R0233,Sales,Sales Executive,2,2025-04-03,2025-05-13,Filled,C009054,True
+R0234,Sales,Sales Representative,1,2025-08-26,2025-10-04,Filled,C009073,True
+R0235,Sales,Sales Executive,2,2025-05-26,2025-07-02,Filled,C009146,True
+R0236,Sales,Sales Representative,1,2025-02-19,2025-03-16,Filled,C009174,True
+R0237,Sales,Sales Representative,1,2025-10-22,,Open,,True
+R0238,Research & Development,Research Scientist,1,2025-07-20,2025-08-18,Filled,C009234,True
+R0239,Research & Development,Research Scientist,1,2026-04-22,2026-05-26,Filled,C009273,True
+R0240,Sales,Sales Executive,2,2025-11-24,2025-12-28,Filled,C009309,True
+R0241,Research & Development,Laboratory Technician,1,2025-11-11,2025-12-18,Filled,C009395,True
+R0242,Research & Development,Laboratory Technician,1,2025-02-23,2025-04-09,Filled,C009458,True
+R0243,Sales,Sales Executive,2,2026-03-30,2026-05-12,Filled,C009492,True
+R0244,Sales,Sales Executive,2,2025-01-04,2025-02-09,Filled,C009501,True
+R0245,Sales,Sales Executive,2,2026-04-15,2026-05-28,Filled,C009571,True
+R0246,Research & Development,Laboratory Technician,1,2025-08-10,2025-09-20,Filled,C009598,True
+R0247,Sales,Sales Representative,1,2026-01-20,2026-02-16,Filled,C009633,True
+R0248,Sales,Sales Executive,2,2025-05-20,,Open,,True
+R0249,Research & Development,Research Scientist,1,2026-02-13,2026-03-12,Filled,C009724,True
+R0250,Research & Development,Laboratory Technician,1,2025-04-14,2025-05-07,Filled,C009772,True
+R0251,Research & Development,Research Scientist,1,2026-05-30,2026-07-05,Filled,C009815,True
+R0252,Research & Development,Research Director,4,2026-03-29,2026-05-04,Filled,C009855,True
+R0253,Human Resources,Human Resources,1,2025-08-02,2025-09-10,Filled,C009893,True
+R0254,Research & Development,Laboratory Technician,1,2025-03-23,2025-05-14,Filled,C009902,True
+R0255,Research & Development,Research Scientist,1,2025-06-19,2025-07-20,Filled,C009925,True
+R0256,Sales,Sales Executive,2,2026-01-05,2026-02-06,Filled,C009989,True
+R0257,Research & Development,Laboratory Technician,1,2025-06-16,2025-07-20,Filled,C010031,True
+R0258,Sales,Sales Executive,2,2026-02-14,2026-03-18,Filled,C010087,True
+R0259,Research & Development,Laboratory Technician,1,2026-02-13,2026-03-23,Filled,C010160,True
+R0260,Research & Development,Laboratory Technician,1,2025-12-21,2026-01-25,Filled,C010208,True
+R0261,Research & Development,Laboratory Technician,1,2025-08-19,2025-09-18,Filled,C010289,True
+R0262,Research & Development,Research Scientist,1,2026-02-17,,Open,,True
+R0263,Research & Development,Laboratory Technician,1,2025-07-04,2025-08-16,Filled,C010383,True
+R0264,Research & Development,Laboratory Technician,1,2026-06-04,2026-07-03,Filled,C010440,True
+R0265,Research & Development,Laboratory Technician,1,2026-05-09,2026-06-12,Filled,C010471,True
+R0266,Research & Development,Research Scientist,1,2025-05-03,2025-06-21,Filled,C010483,True
+R0267,Research & Development,Research Scientist,1,2025-08-20,2025-09-22,Filled,C010539,True
+R0268,Research & Development,Research Scientist,1,2025-04-20,2025-05-15,Filled,C010569,True
+R0269,Research & Development,Research Scientist,1,2025-07-17,2025-08-31,Filled,C010759,True
+R0270,Research & Development,Research Scientist,1,2025-03-29,2025-04-19,Filled,C010762,True
+R0271,Research & Development,Laboratory Technician,1,2026-02-04,2026-03-21,Filled,C010858,True
+R0272,Sales,Sales Executive,2,2025-04-09,2025-05-17,Filled,C010899,True
+R0273,Research & Development,Research Scientist,1,2025-04-01,2025-04-29,Filled,C010920,True
+R0274,Research & Development,Research Scientist,1,2026-03-24,2026-05-22,Filled,C010938,True
+R0275,Sales,Sales Representative,1,2026-05-09,2026-06-20,Filled,C010974,True
+R0276,Sales,Sales Executive,2,2025-03-14,,Open,,True
+R0277,Research & Development,Laboratory Technician,1,2025-11-30,2026-01-09,Filled,C011068,True
+R0278,Research & Development,Laboratory Technician,1,2026-06-18,2026-08-08,Filled,C011086,True
+R0279,Research & Development,Research Scientist,1,2026-02-07,2026-03-24,Filled,C011135,True
+R0280,Research & Development,Laboratory Technician,1,2025-06-12,2025-07-25,Filled,C011184,True
+R0281,Research & Development,Research Scientist,1,2025-06-06,2025-07-12,Filled,C011252,True
+R0282,Research & Development,Laboratory Technician,1,2025-09-08,2025-10-10,Filled,C011298,True
+R0283,Research & Development,Laboratory Technician,1,2026-06-15,2026-07-23,Filled,C011415,True
+R0284,Research & Development,Laboratory Technician,1,2025-08-15,2025-09-26,Filled,C011433,True
+R0285,Research & Development,Manufacturing Director,2,2025-12-21,2026-02-01,Filled,C011520,True
+R0286,Research & Development,Laboratory Technician,1,2025-11-30,2026-01-11,Filled,C011552,True
+R0287,Sales,Sales Representative,1,2025-04-07,2025-04-24,Filled,C011592,True
+R0288,Sales,Sales Executive,2,2025-11-28,2026-01-07,Filled,C011618,True
+R0289,Sales,Sales Executive,2,2025-03-07,2025-04-15,Filled,C011649,True
+R0290,Human Resources,Human Resources,1,2025-03-29,2025-05-01,Filled,C011681,True
+R0291,Research & Development,Research Scientist,1,2026-01-06,2026-02-11,Filled,C011776,True
+R0292,Sales,Sales Representative,1,2025-02-06,,Open,,True
+R0293,Sales,Sales Executive,2,2026-04-12,2026-06-03,Filled,C011817,True
+R0294,Research & Development,Healthcare Representative,2,2025-05-15,2025-07-03,Filled,C011859,True
+R0295,Sales,Sales Executive,2,2025-12-27,2026-01-27,Filled,C011902,True
+R0296,Research & Development,Laboratory Technician,1,2026-06-13,2026-07-13,Cancelled,,True
+R0297,Sales,Sales Representative,1,2025-01-08,2025-02-19,Filled,C011995,True
+R0298,Research & Development,Research Scientist,1,2026-05-03,,Open,,True
+R0299,Sales,Sales Representative,1,2025-08-20,2025-09-19,Filled,C012062,True
+R0300,Research & Development,Healthcare Representative,2,2025-11-23,2026-01-21,Filled,C012070,True
