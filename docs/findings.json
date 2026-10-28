@@ -1,0 +1,1075 @@
+{
+ "f1_workforce_overall": [
+  {
+   "employees": 1470,
+   "active": 1233,
+   "leavers": 237,
+   "attrition_pct": 16.1,
+   "avg_tenure_years": 7.0,
+   "avg_tenure_active": 7.4,
+   "avg_tenure_leavers": 5.1,
+   "median_income_active": 5204.0,
+   "median_income_leavers": 3202.0
+  }
+ ],
+ "f2_by_department": [
+  {
+   "department": "Sales",
+   "employees": 446,
+   "leavers": 92,
+   "attrition_pct": 20.6
+  },
+  {
+   "department": "Human Resources",
+   "employees": 63,
+   "leavers": 12,
+   "attrition_pct": 19.0
+  },
+  {
+   "department": "Research & Development",
+   "employees": 961,
+   "leavers": 133,
+   "attrition_pct": 13.8
+  }
+ ],
+ "f3_by_overtime": [
+  {
+   "overtime": "No",
+   "employees": 1054,
+   "leavers": 110,
+   "attrition_pct": 10.4
+  },
+  {
+   "overtime": "Yes",
+   "employees": 416,
+   "leavers": 127,
+   "attrition_pct": 30.5
+  }
+ ],
+ "f4_by_job_role": [
+  {
+   "job_role": "Sales Representative",
+   "employees": 83,
+   "leavers": 33,
+   "attrition_pct": 39.8
+  },
+  {
+   "job_role": "Laboratory Technician",
+   "employees": 259,
+   "leavers": 62,
+   "attrition_pct": 23.9
+  },
+  {
+   "job_role": "Human Resources",
+   "employees": 52,
+   "leavers": 12,
+   "attrition_pct": 23.1
+  },
+  {
+   "job_role": "Sales Executive",
+   "employees": 326,
+   "leavers": 57,
+   "attrition_pct": 17.5
+  },
+  {
+   "job_role": "Research Scientist",
+   "employees": 292,
+   "leavers": 47,
+   "attrition_pct": 16.1
+  },
+  {
+   "job_role": "Manufacturing Director",
+   "employees": 145,
+   "leavers": 10,
+   "attrition_pct": 6.9
+  },
+  {
+   "job_role": "Healthcare Representative",
+   "employees": 131,
+   "leavers": 9,
+   "attrition_pct": 6.9
+  },
+  {
+   "job_role": "Manager",
+   "employees": 102,
+   "leavers": 5,
+   "attrition_pct": 4.9
+  },
+  {
+   "job_role": "Research Director",
+   "employees": 80,
+   "leavers": 2,
+   "attrition_pct": 2.5
+  }
+ ],
+ "f5_by_tenure_band": [
+  {
+   "tenure_band": "1. 0-2 yrs",
+   "employees": 342,
+   "leavers": 102,
+   "attrition_pct": 29.8
+  },
+  {
+   "tenure_band": "2. 3-5 yrs",
+   "employees": 434,
+   "leavers": 60,
+   "attrition_pct": 13.8
+  },
+  {
+   "tenure_band": "3. 6-10 yrs",
+   "employees": 448,
+   "leavers": 55,
+   "attrition_pct": 12.3
+  },
+  {
+   "tenure_band": "4. 11+ yrs",
+   "employees": 246,
+   "leavers": 20,
+   "attrition_pct": 8.1
+  }
+ ],
+ "f6_by_income_band": [
+  {
+   "income_band": "1. Under 3k",
+   "employees": 395,
+   "leavers": 113,
+   "attrition_pct": 28.6
+  },
+  {
+   "income_band": "2. 3k-5k",
+   "employees": 354,
+   "leavers": 50,
+   "attrition_pct": 14.1
+  },
+  {
+   "income_band": "3. 5k-10k",
+   "employees": 440,
+   "leavers": 49,
+   "attrition_pct": 11.1
+  },
+  {
+   "income_band": "4. 10k+",
+   "employees": 281,
+   "leavers": 25,
+   "attrition_pct": 8.9
+  }
+ ],
+ "f7_by_travel": [
+  {
+   "business_travel": "Travels frequently",
+   "employees": 277,
+   "leavers": 69,
+   "attrition_pct": 24.9
+  },
+  {
+   "business_travel": "Travels rarely",
+   "employees": 1043,
+   "leavers": 156,
+   "attrition_pct": 15.0
+  },
+  {
+   "business_travel": "No travel",
+   "employees": 150,
+   "leavers": 12,
+   "attrition_pct": 8.0
+  }
+ ],
+ "f8_by_age_band": [
+  {
+   "age_band": "18-24",
+   "employees": 97,
+   "leavers": 38,
+   "attrition_pct": 39.2
+  },
+  {
+   "age_band": "25-34",
+   "employees": 554,
+   "leavers": 112,
+   "attrition_pct": 20.2
+  },
+  {
+   "age_band": "35-44",
+   "employees": 505,
+   "leavers": 51,
+   "attrition_pct": 10.1
+  },
+  {
+   "age_band": "45-54",
+   "employees": 245,
+   "leavers": 25,
+   "attrition_pct": 10.2
+  },
+  {
+   "age_band": "55+",
+   "employees": 69,
+   "leavers": 11,
+   "attrition_pct": 15.9
+  }
+ ],
+ "f9_by_job_satisfaction": [
+  {
+   "job_satisfaction": "Low",
+   "employees": 289,
+   "leavers": 66,
+   "attrition_pct": 22.8
+  },
+  {
+   "job_satisfaction": "Medium",
+   "employees": 280,
+   "leavers": 46,
+   "attrition_pct": 16.4
+  },
+  {
+   "job_satisfaction": "High",
+   "employees": 442,
+   "leavers": 73,
+   "attrition_pct": 16.5
+  },
+  {
+   "job_satisfaction": "Very high",
+   "employees": 459,
+   "leavers": 52,
+   "attrition_pct": 11.3
+  }
+ ],
+ "f10_overtime_x_income": [
+  {
+   "overtime": "No",
+   "income_band": "1. Under 3k",
+   "employees": 281,
+   "leavers": 49,
+   "attrition_pct": 17.4
+  },
+  {
+   "overtime": "No",
+   "income_band": "2. 3k-5k",
+   "employees": 263,
+   "leavers": 26,
+   "attrition_pct": 9.9
+  },
+  {
+   "overtime": "No",
+   "income_band": "3. 5k-10k",
+   "employees": 314,
+   "leavers": 22,
+   "attrition_pct": 7.0
+  },
+  {
+   "overtime": "No",
+   "income_band": "4. 10k+",
+   "employees": 196,
+   "leavers": 13,
+   "attrition_pct": 6.6
+  },
+  {
+   "overtime": "Yes",
+   "income_band": "1. Under 3k",
+   "employees": 114,
+   "leavers": 64,
+   "attrition_pct": 56.1
+  },
+  {
+   "overtime": "Yes",
+   "income_band": "2. 3k-5k",
+   "employees": 91,
+   "leavers": 24,
+   "attrition_pct": 26.4
+  },
+  {
+   "overtime": "Yes",
+   "income_band": "3. 5k-10k",
+   "employees": 126,
+   "leavers": 27,
+   "attrition_pct": 21.4
+  },
+  {
+   "overtime": "Yes",
+   "income_band": "4. 10k+",
+   "employees": 85,
+   "leavers": 12,
+   "attrition_pct": 14.1
+  }
+ ],
+ "f11_by_job_level": [
+  {
+   "job_level": 1,
+   "employees": 543,
+   "leavers": 143,
+   "attrition_pct": 26.3,
+   "median_monthly_income": 2670.0
+  },
+  {
+   "job_level": 2,
+   "employees": 534,
+   "leavers": 52,
+   "attrition_pct": 9.7,
+   "median_monthly_income": 5340.0
+  },
+  {
+   "job_level": 3,
+   "employees": 218,
+   "leavers": 32,
+   "attrition_pct": 14.7,
+   "median_monthly_income": 9980.0
+  },
+  {
+   "job_level": 4,
+   "employees": 106,
+   "leavers": 5,
+   "attrition_pct": 4.7,
+   "median_monthly_income": 16154.0
+  },
+  {
+   "job_level": 5,
+   "employees": 69,
+   "leavers": 5,
+   "attrition_pct": 7.2,
+   "median_monthly_income": 19232.0
+  }
+ ],
+ "f12_department_tenure_income": [
+  {
+   "department": "Human Resources",
+   "employees": 63,
+   "active": 51,
+   "avg_tenure_years": 7.2,
+   "avg_tenure_leavers": 4.2,
+   "median_monthly_income": 3886.0
+  },
+  {
+   "department": "Research & Development",
+   "employees": 961,
+   "active": 828,
+   "avg_tenure_years": 6.9,
+   "avg_tenure_leavers": 5.0,
+   "median_monthly_income": 4374.0
+  },
+  {
+   "department": "Sales",
+   "employees": 446,
+   "active": 354,
+   "avg_tenure_years": 7.3,
+   "avg_tenure_leavers": 5.5,
+   "median_monthly_income": 5755.0
+  }
+ ],
+ "f20_absence_overall": [
+  {
+   "records": 740,
+   "spells_with_hours": 696,
+   "employees": 36,
+   "total_hours": 5124,
+   "hours_per_employee": 142.3,
+   "hours_per_employee_per_year": 47.4,
+   "avg_hours_per_spell": 7.4,
+   "median_hours_per_spell": 3.0
+  }
+ ],
+ "f21_absence_by_reason": [
+  {
+   "reason_code": 13,
+   "reason_name": "Musculoskeletal and connective tissue",
+   "reason_group": "ICD disease",
+   "records": 55,
+   "hours": 842,
+   "pct_of_hours": 16.4,
+   "avg_hours": 15.3
+  },
+  {
+   "reason_code": 19,
+   "reason_name": "Injury, poisoning",
+   "reason_group": "ICD disease",
+   "records": 40,
+   "hours": 729,
+   "pct_of_hours": 14.2,
+   "avg_hours": 18.2
+  },
+  {
+   "reason_code": 23,
+   "reason_name": "Medical consultation",
+   "reason_group": "Non-ICD",
+   "records": 149,
+   "hours": 424,
+   "pct_of_hours": 8.3,
+   "avg_hours": 2.8
+  },
+  {
+   "reason_code": 28,
+   "reason_name": "Dental consultation",
+   "reason_group": "Non-ICD",
+   "records": 112,
+   "hours": 335,
+   "pct_of_hours": 6.5,
+   "avg_hours": 3.0
+  },
+  {
+   "reason_code": 11,
+   "reason_name": "Digestive system",
+   "reason_group": "ICD disease",
+   "records": 26,
+   "hours": 297,
+   "pct_of_hours": 5.8,
+   "avg_hours": 11.4
+  },
+  {
+   "reason_code": 22,
+   "reason_name": "Patient follow-up",
+   "reason_group": "Non-ICD",
+   "records": 38,
+   "hours": 293,
+   "pct_of_hours": 5.7,
+   "avg_hours": 7.7
+  },
+  {
+   "reason_code": 10,
+   "reason_name": "Respiratory system",
+   "reason_group": "ICD disease",
+   "records": 25,
+   "hours": 276,
+   "pct_of_hours": 5.4,
+   "avg_hours": 11.0
+  },
+  {
+   "reason_code": 26,
+   "reason_name": "Unjustified absence",
+   "reason_group": "Non-ICD",
+   "records": 33,
+   "hours": 240,
+   "pct_of_hours": 4.7,
+   "avg_hours": 7.3
+  },
+  {
+   "reason_code": 18,
+   "reason_name": "Symptoms and abnormal findings",
+   "reason_group": "ICD disease",
+   "records": 21,
+   "hours": 217,
+   "pct_of_hours": 4.2,
+   "avg_hours": 10.3
+  },
+  {
+   "reason_code": 12,
+   "reason_name": "Skin and subcutaneous tissue",
+   "reason_group": "ICD disease",
+   "records": 8,
+   "hours": 187,
+   "pct_of_hours": 3.6,
+   "avg_hours": 23.4
+  },
+  {
+   "reason_code": 1,
+   "reason_name": "Infectious and parasitic diseases",
+   "reason_group": "ICD disease",
+   "records": 16,
+   "hours": 182,
+   "pct_of_hours": 3.6,
+   "avg_hours": 11.4
+  },
+  {
+   "reason_code": 6,
+   "reason_name": "Nervous system",
+   "reason_group": "ICD disease",
+   "records": 8,
+   "hours": 171,
+   "pct_of_hours": 3.3,
+   "avg_hours": 21.4
+  },
+  {
+   "reason_code": 9,
+   "reason_name": "Circulatory system",
+   "reason_group": "ICD disease",
+   "records": 4,
+   "hours": 168,
+   "pct_of_hours": 3.3,
+   "avg_hours": 42.0
+  },
+  {
+   "reason_code": 14,
+   "reason_name": "Genitourinary system",
+   "reason_group": "ICD disease",
+   "records": 19,
+   "hours": 167,
+   "pct_of_hours": 3.3,
+   "avg_hours": 8.8
+  },
+  {
+   "reason_code": 27,
+   "reason_name": "Physiotherapy",
+   "reason_group": "Non-ICD",
+   "records": 69,
+   "hours": 157,
+   "pct_of_hours": 3.1,
+   "avg_hours": 2.3
+  },
+  {
+   "reason_code": 7,
+   "reason_name": "Eye and adnexa",
+   "reason_group": "ICD disease",
+   "records": 15,
+   "hours": 150,
+   "pct_of_hours": 2.9,
+   "avg_hours": 10.0
+  },
+  {
+   "reason_code": 25,
+   "reason_name": "Laboratory examination",
+   "reason_group": "Non-ICD",
+   "records": 31,
+   "hours": 108,
+   "pct_of_hours": 2.1,
+   "avg_hours": 3.5
+  },
+  {
+   "reason_code": 21,
+   "reason_name": "Factors influencing health status",
+   "reason_group": "ICD disease",
+   "records": 6,
+   "hours": 35,
+   "pct_of_hours": 0.7,
+   "avg_hours": 5.8
+  },
+  {
+   "reason_code": 8,
+   "reason_name": "Ear and mastoid",
+   "reason_group": "ICD disease",
+   "records": 6,
+   "hours": 32,
+   "pct_of_hours": 0.6,
+   "avg_hours": 5.3
+  },
+  {
+   "reason_code": 24,
+   "reason_name": "Blood donation",
+   "reason_group": "Non-ICD",
+   "records": 3,
+   "hours": 24,
+   "pct_of_hours": 0.5,
+   "avg_hours": 8.0
+  },
+  {
+   "reason_code": 2,
+   "reason_name": "Neoplasms",
+   "reason_group": "ICD disease",
+   "records": 1,
+   "hours": 24,
+   "pct_of_hours": 0.5,
+   "avg_hours": 24.0
+  },
+  {
+   "reason_code": 5,
+   "reason_name": "Mental and behavioural disorders",
+   "reason_group": "ICD disease",
+   "records": 3,
+   "hours": 19,
+   "pct_of_hours": 0.4,
+   "avg_hours": 6.3
+  },
+  {
+   "reason_code": 15,
+   "reason_name": "Pregnancy and childbirth",
+   "reason_group": "ICD disease",
+   "records": 2,
+   "hours": 16,
+   "pct_of_hours": 0.3,
+   "avg_hours": 8.0
+  },
+  {
+   "reason_code": 4,
+   "reason_name": "Endocrine, nutritional, metabolic",
+   "reason_group": "ICD disease",
+   "records": 2,
+   "hours": 9,
+   "pct_of_hours": 0.2,
+   "avg_hours": 4.5
+  },
+  {
+   "reason_code": 17,
+   "reason_name": "Congenital malformations",
+   "reason_group": "ICD disease",
+   "records": 1,
+   "hours": 8,
+   "pct_of_hours": 0.2,
+   "avg_hours": 8.0
+  },
+  {
+   "reason_code": 3,
+   "reason_name": "Blood and immune disorders",
+   "reason_group": "ICD disease",
+   "records": 1,
+   "hours": 8,
+   "pct_of_hours": 0.2,
+   "avg_hours": 8.0
+  },
+  {
+   "reason_code": 16,
+   "reason_name": "Perinatal conditions",
+   "reason_group": "ICD disease",
+   "records": 3,
+   "hours": 6,
+   "pct_of_hours": 0.1,
+   "avg_hours": 2.0
+  },
+  {
+   "reason_code": 0,
+   "reason_name": "No reason recorded",
+   "reason_group": "No reason recorded",
+   "records": 43,
+   "hours": 0,
+   "pct_of_hours": 0.0,
+   "avg_hours": 0.0
+  }
+ ],
+ "f22_absence_by_weekday": [
+  {
+   "iso_weekday": 1,
+   "weekday_name": "Mon",
+   "records": 161,
+   "hours": 1489,
+   "pct_of_hours": 29.1,
+   "avg_hours": 9.2
+  },
+  {
+   "iso_weekday": 2,
+   "weekday_name": "Tue",
+   "records": 154,
+   "hours": 1229,
+   "pct_of_hours": 24.0,
+   "avg_hours": 8.0
+  },
+  {
+   "iso_weekday": 3,
+   "weekday_name": "Wed",
+   "records": 156,
+   "hours": 1115,
+   "pct_of_hours": 21.8,
+   "avg_hours": 7.1
+  },
+  {
+   "iso_weekday": 4,
+   "weekday_name": "Thu",
+   "records": 125,
+   "hours": 553,
+   "pct_of_hours": 10.8,
+   "avg_hours": 4.4
+  },
+  {
+   "iso_weekday": 5,
+   "weekday_name": "Fri",
+   "records": 144,
+   "hours": 738,
+   "pct_of_hours": 14.4,
+   "avg_hours": 5.1
+  }
+ ],
+ "f23_absence_by_season": [
+  {
+   "season_by_month": "Autumn (Mar-May)",
+   "records": 204,
+   "hours": 1647,
+   "pct_of_hours": 32.1,
+   "avg_hours": 8.1
+  },
+  {
+   "season_by_month": "Winter (Jun-Aug)",
+   "records": 175,
+   "hours": 1433,
+   "pct_of_hours": 28.0,
+   "avg_hours": 8.2
+  },
+  {
+   "season_by_month": "Spring (Sep-Nov)",
+   "records": 187,
+   "hours": 1114,
+   "pct_of_hours": 21.7,
+   "avg_hours": 6.0
+  },
+  {
+   "season_by_month": "Summer (Dec-Feb)",
+   "records": 171,
+   "hours": 930,
+   "pct_of_hours": 18.1,
+   "avg_hours": 5.4
+  }
+ ],
+ "f24_absence_by_month": [
+  {
+   "month_number": 1,
+   "month_name": "Jan",
+   "records": 50,
+   "hours": 222,
+   "avg_hours": 4.4
+  },
+  {
+   "month_number": 2,
+   "month_name": "Feb",
+   "records": 72,
+   "hours": 294,
+   "avg_hours": 4.1
+  },
+  {
+   "month_number": 3,
+   "month_name": "Mar",
+   "records": 87,
+   "hours": 765,
+   "avg_hours": 8.8
+  },
+  {
+   "month_number": 4,
+   "month_name": "Apr",
+   "records": 53,
+   "hours": 482,
+   "avg_hours": 9.1
+  },
+  {
+   "month_number": 5,
+   "month_name": "May",
+   "records": 64,
+   "hours": 400,
+   "avg_hours": 6.3
+  },
+  {
+   "month_number": 6,
+   "month_name": "Jun",
+   "records": 54,
+   "hours": 411,
+   "avg_hours": 7.6
+  },
+  {
+   "month_number": 7,
+   "month_name": "Jul",
+   "records": 67,
+   "hours": 734,
+   "avg_hours": 11.0
+  },
+  {
+   "month_number": 8,
+   "month_name": "Aug",
+   "records": 54,
+   "hours": 288,
+   "avg_hours": 5.3
+  },
+  {
+   "month_number": 9,
+   "month_name": "Sep",
+   "records": 53,
+   "hours": 292,
+   "avg_hours": 5.5
+  },
+  {
+   "month_number": 10,
+   "month_name": "Oct",
+   "records": 71,
+   "hours": 349,
+   "avg_hours": 4.9
+  },
+  {
+   "month_number": 11,
+   "month_name": "Nov",
+   "records": 63,
+   "hours": 473,
+   "avg_hours": 7.5
+  },
+  {
+   "month_number": 12,
+   "month_name": "Dec",
+   "records": 49,
+   "hours": 414,
+   "avg_hours": 8.4
+  }
+ ],
+ "f25_bradford": [
+  {
+   "employees": 36,
+   "median_bradford_annual": 49.0,
+   "max_bradford_annual": 27992.0,
+   "employees_bradford_250_plus": 12,
+   "top5_share_of_hours_pct": 41.0
+  }
+ ],
+ "f25b_bradford_top10": [
+  {
+   "absence_employee_key": "UCI-03",
+   "spells": 112,
+   "days": 60.3,
+   "hours": 482,
+   "bradford_annual": 27992.0
+  },
+  {
+   "absence_employee_key": "UCI-28",
+   "spells": 75,
+   "days": 43.4,
+   "hours": 347,
+   "bradford_annual": 9036.0
+  },
+  {
+   "absence_employee_key": "UCI-34",
+   "spells": 54,
+   "days": 43.0,
+   "hours": 344,
+   "bradford_annual": 4644.0
+  },
+  {
+   "absence_employee_key": "UCI-11",
+   "spells": 38,
+   "days": 56.3,
+   "hours": 450,
+   "bradford_annual": 3008.0
+  },
+  {
+   "absence_employee_key": "UCI-22",
+   "spells": 46,
+   "days": 31.6,
+   "hours": 253,
+   "bradford_annual": 2478.0
+  },
+  {
+   "absence_employee_key": "UCI-20",
+   "spells": 39,
+   "days": 38.3,
+   "hours": 306,
+   "bradford_annual": 2155.0
+  },
+  {
+   "absence_employee_key": "UCI-14",
+   "spells": 29,
+   "days": 59.5,
+   "hours": 476,
+   "bradford_annual": 1853.0
+  },
+  {
+   "absence_employee_key": "UCI-15",
+   "spells": 35,
+   "days": 31.6,
+   "hours": 253,
+   "bradford_annual": 1435.0
+  },
+  {
+   "absence_employee_key": "UCI-36",
+   "spells": 28,
+   "days": 38.9,
+   "hours": 311,
+   "bradford_annual": 1129.0
+  },
+  {
+   "absence_employee_key": "UCI-24",
+   "spells": 29,
+   "days": 31.8,
+   "hours": 254,
+   "bradford_annual": 989.0
+  }
+ ],
+ "f26_disciplinary": [
+  {
+   "disciplinary_failure": false,
+   "records": 700,
+   "hours": 5124
+  },
+  {
+   "disciplinary_failure": true,
+   "records": 40,
+   "hours": 0
+  }
+ ],
+ "f30_hiring_overall_SIMULATED": [
+  {
+   "requisitions": 300,
+   "filled": 257,
+   "open": 39,
+   "cancelled": 4,
+   "applicants": 12109,
+   "avg_time_to_fill_days": 37.6,
+   "median_time_to_fill_days": 37.0,
+   "avg_time_to_hire_days": 32.7,
+   "median_time_to_hire_days": 33.0,
+   "offer_accept_pct": 77.6
+  }
+ ],
+ "f31_funnel_SIMULATED": [
+  {
+   "stage": "1. Applied",
+   "candidates": 12109,
+   "pct_of_applicants": 100.0
+  },
+  {
+   "stage": "2. Screened",
+   "candidates": 4013,
+   "pct_of_applicants": 33.14
+  },
+  {
+   "stage": "3. Interview",
+   "candidates": 2409,
+   "pct_of_applicants": 19.89
+  },
+  {
+   "stage": "4. Final interview",
+   "candidates": 943,
+   "pct_of_applicants": 7.79
+  },
+  {
+   "stage": "5. Offer",
+   "candidates": 331,
+   "pct_of_applicants": 2.73
+  },
+  {
+   "stage": "6. Hired",
+   "candidates": 257,
+   "pct_of_applicants": 2.12
+  }
+ ],
+ "f32_by_source_SIMULATED": [
+  {
+   "source": "Employee referral",
+   "applicants": 1502,
+   "offers": 72,
+   "hires": 60,
+   "hire_per_100_applicants": 3.99,
+   "offer_accept_pct": 83.3,
+   "avg_time_to_hire_days": 32.8
+  },
+  {
+   "source": "Agency",
+   "applicants": 1240,
+   "offers": 42,
+   "hires": 27,
+   "hire_per_100_applicants": 2.18,
+   "offer_accept_pct": 64.3,
+   "avg_time_to_hire_days": 32.9
+  },
+  {
+   "source": "LinkedIn",
+   "applicants": 3942,
+   "offers": 107,
+   "hires": 86,
+   "hire_per_100_applicants": 2.18,
+   "offer_accept_pct": 80.4,
+   "avg_time_to_hire_days": 33.1
+  },
+  {
+   "source": "Careers site",
+   "applicants": 2413,
+   "offers": 59,
+   "hires": 43,
+   "hire_per_100_applicants": 1.78,
+   "offer_accept_pct": 72.9,
+   "avg_time_to_hire_days": 33.1
+  },
+  {
+   "source": "Job board",
+   "applicants": 3012,
+   "offers": 51,
+   "hires": 41,
+   "hire_per_100_applicants": 1.36,
+   "offer_accept_pct": 80.4,
+   "avg_time_to_hire_days": 31.0
+  }
+ ],
+ "f33_by_department_SIMULATED": [
+  {
+   "department": "Research & Development",
+   "requisitions": 181,
+   "filled": 158,
+   "avg_time_to_fill_days": 37.3,
+   "median_time_to_fill_days": 36.5,
+   "avg_time_to_hire_days": 32.7,
+   "median_time_to_hire_days": 32.0,
+   "applicants": 7953,
+   "offers": 206
+  },
+  {
+   "department": "Sales",
+   "requisitions": 108,
+   "filled": 89,
+   "avg_time_to_fill_days": 37.9,
+   "median_time_to_fill_days": 37.0,
+   "avg_time_to_hire_days": 32.5,
+   "median_time_to_hire_days": 33.0,
+   "applicants": 3712,
+   "offers": 112
+  },
+  {
+   "department": "Human Resources",
+   "requisitions": 11,
+   "filled": 10,
+   "avg_time_to_fill_days": 38.5,
+   "median_time_to_fill_days": 37.0,
+   "avg_time_to_hire_days": 33.3,
+   "median_time_to_hire_days": 33.5,
+   "applicants": 444,
+   "offers": 13
+  }
+ ],
+ "f34_hires_by_quarter_SIMULATED": [
+  {
+   "quarter_filled": "2025-Q1",
+   "hires": 24,
+   "avg_time_to_hire_days": 31.6,
+   "median_time_to_hire_days": 31.0,
+   "median_time_to_fill_days": 36.0
+  },
+  {
+   "quarter_filled": "2025-Q2",
+   "hires": 39,
+   "avg_time_to_hire_days": 32.0,
+   "median_time_to_hire_days": 32.0,
+   "median_time_to_fill_days": 37.0
+  },
+  {
+   "quarter_filled": "2025-Q3",
+   "hires": 53,
+   "avg_time_to_hire_days": 33.4,
+   "median_time_to_hire_days": 33.0,
+   "median_time_to_fill_days": 38.0
+  },
+  {
+   "quarter_filled": "2025-Q4",
+   "hires": 36,
+   "avg_time_to_hire_days": 32.4,
+   "median_time_to_hire_days": 32.0,
+   "median_time_to_fill_days": 36.5
+  },
+  {
+   "quarter_filled": "2026-Q1",
+   "hires": 50,
+   "avg_time_to_hire_days": 31.9,
+   "median_time_to_hire_days": 32.5,
+   "median_time_to_fill_days": 36.0
+  },
+  {
+   "quarter_filled": "2026-Q2",
+   "hires": 40,
+   "avg_time_to_hire_days": 34.2,
+   "median_time_to_hire_days": 34.0,
+   "median_time_to_fill_days": 37.0
+  },
+  {
+   "quarter_filled": "2026-Q3",
+   "hires": 15,
+   "avg_time_to_hire_days": 32.9,
+   "median_time_to_hire_days": 34.0,
+   "median_time_to_fill_days": 37.0
+  }
+ ],
+ "f35_offer_acceptance_by_department_SIMULATED": [
+  {
+   "department": "Human Resources",
+   "accepted": 10,
+   "declined": 3,
+   "pending": 0,
+   "offer_accept_pct": 76.9
+  },
+  {
+   "department": "Research & Development",
+   "accepted": 158,
+   "declined": 48,
+   "pending": 0,
+   "offer_accept_pct": 76.7
+  },
+  {
+   "department": "Sales",
+   "accepted": 89,
+   "declined": 23,
+   "pending": 0,
+   "offer_accept_pct": 79.5
+  }
+ ]
+}
